@@ -81,6 +81,8 @@ export function FeaturesTitle() {
             skillset and stay ahead of industry trends.
           </Text>
 
+          {/* 
+          TODO: implement pdf version
           <Button
             variant="gradient"
             gradient={{ deg: 133, from: "blue", to: "cyan" }}
@@ -89,7 +91,7 @@ export function FeaturesTitle() {
             mt="xl"
           >
             Download as PDF
-          </Button>
+          </Button> */}
         </Grid.Col>
         <Grid.Col span={{ base: 12, md: 6 }}>
           <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>

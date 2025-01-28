@@ -9,6 +9,7 @@ import {
   useMantineColorScheme,
   List,
   Anchor,
+  Box,
 } from "@mantine/core";
 import { FeaturesTitle } from "../components/Features/Features";
 import ColorSwitch from "../components/ColorSwitch/ColorSwitch";
@@ -164,7 +165,9 @@ export default function Index() {
       padding="md"
     >
       <AppShell.Main>
-        <ColorSwitch />
+        <Box left={1} bottom={1} pos={"fixed"} display={"flex"}>
+          <ColorSwitch />
+        </Box>
         <Grid m={"0 auto"} maw={{ lg: 1700 }} gutter="md">
           <GridCol span={12}>
             <Paper shadow="sm" radius="md" p="xl">
@@ -203,6 +206,7 @@ export default function Index() {
                   <List>
                     <List.Item>Portuguese - Native</List.Item>
                     <List.Item>English - Fluent</List.Item>
+                    <List.Item>Japanese - Basic(Learning)</List.Item>
                   </List>
                 </Paper>
               </GridCol>
