@@ -165,7 +165,7 @@ export default function Index() {
       padding="md"
     >
       <AppShell.Main>
-        <Box left={1} bottom={1} pos={"fixed"} display={"flex"}>
+        <Box right={1} bottom={1} pos={"fixed"} display={"flex"}>
           <ColorSwitch />
         </Box>
         <Grid m={"0 auto"} maw={{ lg: 1700 }} gutter="md">
