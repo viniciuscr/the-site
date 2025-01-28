@@ -1,5 +1,5 @@
-# Mantine Next Template
+# The site
+My CV page.
 
-Get started with the template by clicking `Use this template` button on the top of the page.
+> A forever never finished project
 
-[Documentation](https://mantine.dev/guides/next/)

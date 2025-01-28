@@ -1,4 +1,5 @@
 import { Pill } from "@mantine/core";
+import { JSX } from "react";
 
 /**
  * Renders a group of pill tags for skills.
