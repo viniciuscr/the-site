@@ -6,6 +6,7 @@ import {
   ThemeIcon,
   Grid,
   rem,
+  GridCol,
 } from "@mantine/core";
 import {
   IconStack3,
@@ -66,7 +67,7 @@ export function FeaturesTitle() {
   return (
     <div className={classes.wrapper}>
       <Grid gutter={80}>
-        <Grid.Col span={{ base: 12, md: 6 }}>
+        <GridCol span={{ base: 12, md: 6 }}>
           <Title className={classes.title} order={1}>
             Vinícius Castelani Reck
           </Title>
@@ -92,12 +93,12 @@ export function FeaturesTitle() {
           >
             Download as PDF
           </Button> */}
-        </Grid.Col>
-        <Grid.Col span={{ base: 12, md: 6 }}>
+        </GridCol>
+        <GridCol span={{ base: 12, md: 6 }}>
           <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>
             {items}
           </SimpleGrid>
-        </Grid.Col>
+        </GridCol>
       </Grid>
     </div>
   );

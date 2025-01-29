@@ -1,4 +1,4 @@
-import { SimpleGrid, Text, Timeline, Title } from "@mantine/core";
+import { SimpleGrid, Text, Timeline, TimelineItem, Title } from "@mantine/core";
 import SkillsTags from "../SkillsTags/SkillsTags";
 
 interface ProfessionalExperienceEntryProps {
@@ -24,7 +24,7 @@ const ProfessionalExperienceEntry: React.FC<
   endDate,
   ...timelineProps
 }) => (
-  <Timeline.Item
+  <TimelineItem
     {...timelineProps}
     title={
       <>
@@ -43,7 +43,7 @@ const ProfessionalExperienceEntry: React.FC<
         {startDate} - {endDate ?? "current"}
       </Text>
     </SimpleGrid>
-  </Timeline.Item>
+  </TimelineItem>
 );
 
 export default ProfessionalExperienceEntry;

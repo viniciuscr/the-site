@@ -5,16 +5,17 @@ import {
   Title,
   Grid,
   GridCol,
-  useMantineTheme,
-  useMantineColorScheme,
   List,
   Anchor,
   Box,
+  TimelineItem,
+  ListItem,
+  AppShellMain,
 } from "@mantine/core";
 import { FeaturesTitle } from "../components/Features/Features";
-import ColorSwitch from "../components/ColorSwitch/ColorSwitch";
 import ProfessionalExperienceEntry from "../components/ProfessionalExperience/ProfessionalExperienceEntry";
-
+import ColorSwitch from "../components/ColorSwitch/ColorSwitch";
+import classes from "./page.module.css";
 const experience = [
   {
     position: "Full-stack Engineer",
@@ -149,25 +150,14 @@ const experience = [
   },
 ];
 
-export default function Index() {
-  // TODO: section "what I do" https://colorlib.com/wp/wp-content/uploads/sites/2/leven-resume-website-template.jpg
-  const theme = useMantineTheme();
-  const colorScheme = useMantineColorScheme();
-
+export default function HomePage() {
   return (
-    <AppShell
-      style={{
-        backgroundColor:
-          colorScheme.colorScheme === "dark"
-            ? theme.colors.gray[8]
-            : theme.colors.gray[1],
-      }}
-      padding="md"
-    >
-      <AppShell.Main>
-        <Box right={1} bottom={1} pos={"fixed"} display={"flex"}>
+    <AppShell className={classes.shell} padding="md">
+      <AppShellMain>
+        <Box right={3} bottom={3} pos={"fixed"} display={"flex"}>
           <ColorSwitch />
         </Box>
+        <Box right={1} bottom={1} pos={"fixed"} display={"flex"}></Box>
         <Grid m={"0 auto"} maw={{ lg: 1700 }} gutter="md">
           <GridCol span={12}>
             <Paper shadow="sm" radius="md" p="xl">
@@ -181,7 +171,7 @@ export default function Index() {
                 {experience.map((experience, index) => (
                   <ProfessionalExperienceEntry key={index} {...experience} />
                 ))}
-                <Timeline.Item display="none"></Timeline.Item>
+                <TimelineItem display="none">sorvete</TimelineItem>
               </Timeline>
             </Paper>
           </GridCol>
@@ -204,9 +194,9 @@ export default function Index() {
                 <Paper shadow="sm" radius="md" p="xl">
                   <Title order={2}>Languages</Title>
                   <List>
-                    <List.Item>Portuguese - Native</List.Item>
-                    <List.Item>English - Fluent</List.Item>
-                    <List.Item>Japanese - Basic(Learning)</List.Item>
+                    <ListItem>Portuguese - Native</ListItem>
+                    <ListItem>English - Fluent</ListItem>
+                    <ListItem>Japanese - Basic(Learning)</ListItem>
                   </List>
                 </Paper>
               </GridCol>
@@ -214,7 +204,7 @@ export default function Index() {
                 <Paper shadow="sm" radius="md" p="xl">
                   <Title order={2}>Profiles</Title>
                   <List>
-                    <List.Item>
+                    <ListItem>
                       <Anchor
                         rel="noopener noreferrer"
                         target="_blank"
@@ -223,8 +213,8 @@ export default function Index() {
                       >
                         LinkedIn
                       </Anchor>
-                    </List.Item>
-                    <List.Item>
+                    </ListItem>
+                    <ListItem>
                       <Anchor
                         rel="noopener noreferrer"
                         target="_blank"
@@ -233,8 +223,8 @@ export default function Index() {
                       >
                         GitHub
                       </Anchor>
-                    </List.Item>
-                    <List.Item>
+                    </ListItem>
+                    <ListItem>
                       <Anchor
                         rel="noopener noreferrer"
                         target="_blank"
@@ -243,14 +233,14 @@ export default function Index() {
                       >
                         HackerHank
                       </Anchor>
-                    </List.Item>
+                    </ListItem>
                   </List>
                 </Paper>
               </GridCol>
             </Grid>
           </GridCol>
         </Grid>
-      </AppShell.Main>
+      </AppShellMain>
     </AppShell>
   );
 }

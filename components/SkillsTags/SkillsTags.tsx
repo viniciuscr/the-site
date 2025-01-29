@@ -1,4 +1,4 @@
-import { Pill } from "@mantine/core";
+import { Pill, PillGroup } from "@mantine/core";
 import { JSX } from "react";
 
 /**
@@ -8,7 +8,7 @@ import { JSX } from "react";
  * @returns {JSX.Element} - The rendered group of pill tags.
  */
 const SkillsTags = ({ skills }: { skills: string[] }): JSX.Element => (
-  <Pill.Group>
+  <PillGroup>
     {skills.map(
       (line: string, index: number): JSX.Element => (
         <Pill fw={600} key={index}>
@@ -16,7 +16,7 @@ const SkillsTags = ({ skills }: { skills: string[] }): JSX.Element => (
         </Pill>
       )
     )}
-  </Pill.Group>
+  </PillGroup>
 );
 
 export default SkillsTags;

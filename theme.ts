@@ -1,3 +1,5 @@
+"use client";
+
 import { createTheme, rem } from "@mantine/core";
 import { generateColors } from "@mantine/colors-generator";
 
