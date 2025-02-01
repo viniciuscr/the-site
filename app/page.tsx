@@ -12,9 +12,9 @@ import {
   ListItem,
   AppShellMain,
 } from "@mantine/core";
-import { FeaturesTitle } from "../components/Features/Features";
-import ProfessionalExperienceEntry from "../components/ProfessionalExperience/ProfessionalExperienceEntry";
-import ColorSwitch from "../components/ColorSwitch/ColorSwitch";
+import { FeaturesTitle } from "@/components/Features/Features";
+import ProfessionalExperienceEntry from "@/components/ProfessionalExperience/ProfessionalExperienceEntry";
+import ColorSwitch from "@/components/ColorSwitch/ColorSwitch";
 import classes from "./page.module.css";
 const experience = [
   {
