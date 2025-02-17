@@ -2,48 +2,27 @@ import {
   Title,
   SimpleGrid,
   Text,
-  Button,
   ThemeIcon,
   Grid,
-  rem,
   GridCol,
 } from "@mantine/core";
-import {
-  IconStack3,
-  IconBrain,
-  IconLayout,
-  IconBrandTypescript,
-} from "@tabler/icons-react";
 import classes from "./Features.module.css";
+import { Feature } from "./types";
+import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
 
-const features = [
-  {
-    icon: IconLayout,
-    title: "Focus on UX",
-    description:
-      "Proficient in front-end development technologies, usability principles, and design aesthetics. Committed to delivering high-quality code and exceptional user experiences.",
-  },
-  {
-    icon: IconBrandTypescript,
-    title: "Full-fledged TypeScript",
-    description:
-      "From the stack to the tooling, a deep understanding of TypeScript ecosystem and its capabilities.",
-  },
-  {
-    icon: IconBrain,
-    title: "A developer mindset",
-    description:
-      "It's not just about writing code, but bringing a creative spark to the table, envisioning new possibilities and building them into reality.",
-  },
-  {
-    icon: IconStack3,
-    title: "Backend Backed",
-    description:
-      "Experienced in building robust and scalable services using microservices architecture, serverless functions, and AWS services.",
-  },
-];
+export async function FeaturesTitle() {
+  const features: Feature[] = await fetch(
+    process.env.API_URL + "/features"
+  ).then((res) => res.json());
 
-export function FeaturesTitle() {
+  const textToIcon = (text: string) =>
+  ({
+    braces: <Braces />,
+    brainCircuit: <BrainCircuit />,
+    proportions: <Proportions />,
+    server: <Server />,
+  }[text]);
+
   const items = features.map((feature) => (
     <div key={feature.title}>
       <ThemeIcon
@@ -52,10 +31,7 @@ export function FeaturesTitle() {
         variant="gradient"
         gradient={{ deg: 133, from: "blue", to: "cyan" }}
       >
-        <feature.icon
-          style={{ width: rem(26), height: rem(26) }}
-          stroke={1.5}
-        />
+        {textToIcon(feature.icon)}
       </ThemeIcon>
       <Text fz="lg" mt="sm" fw={800}>
         {feature.title}
