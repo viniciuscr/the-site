@@ -79,4 +79,3 @@ export async function FeaturesTitle() {
     </div>
   );
 }
-export const dynamic = 'force-dynamic';

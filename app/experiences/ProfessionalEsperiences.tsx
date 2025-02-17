@@ -10,5 +10,3 @@ export async function ProfessionalExperience() {
     <ProfessionalExperienceEntry key={experience.id} {...experience} />
   ));
 }
-
-export const dynamic = 'force-dynamic';
