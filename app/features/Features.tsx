@@ -1,3 +1,5 @@
+'use client'
+
 import {
   Title,
   SimpleGrid,
@@ -5,23 +7,31 @@ import {
   ThemeIcon,
   Grid,
   GridCol,
+  Loader,
 } from "@mantine/core";
 import classes from "./Features.module.css";
 import { Feature } from "./types";
 import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
+import useSWR from "swr";
 
-export async function FeaturesTitle() {
-  const features: Feature[] = await fetch(
-    process.env.NEXT_PUBLIC_API_URL + "/features"
-  ).then((res) => res.json());
+export function FeaturesTitle() {
+  const { data: features = [], isLoading } = useSWR<Feature[]>(
+    process.env.NEXT_PUBLIC_API_URL + "/features", (url: string) => fetch(url).then(res => res.json())
+  );
+
+  if (isLoading) {
+    return (
+      <Loader color="blue" />
+    )
+  }
 
   const textToIcon = (text: string) =>
-    ({
-      braces: <Braces />,
-      brainCircuit: <BrainCircuit />,
-      proportions: <Proportions />,
-      server: <Server />,
-    }[text]);
+  ({
+    braces: <Braces />,
+    brainCircuit: <BrainCircuit />,
+    proportions: <Proportions />,
+    server: <Server />,
+  }[text]);
 
   const items = features.map((feature) => (
     <div key={feature.title}>
