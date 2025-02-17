@@ -8,7 +8,7 @@ import { Loader } from "@mantine/core";
 export function ProfessionalExperience() {
 
   const { data: experience = [], isLoading } = useSWR<Experience[]>(
-    process.env.NEXT_PUBLIC_API_URL + "/experiences", (url: string) => fetch(url).then(res => res.json())
+    "/experiences", (url: string) => fetch(url).then(res => res.json())
   );
 
   if (isLoading) {

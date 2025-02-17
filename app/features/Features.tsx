@@ -16,7 +16,7 @@ import useSWR from "swr";
 
 export function FeaturesTitle() {
   const { data: features = [], isLoading } = useSWR<Feature[]>(
-    process.env.NEXT_PUBLIC_API_URL + "/features", (url: string) => fetch(url).then(res => res.json())
+    "/features", (url: string) => fetch(url).then(res => res.json())
   );
 
   if (isLoading) {
