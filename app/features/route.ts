@@ -12,7 +12,7 @@ export async function GET(): Promise<Response> {
       icon: "braces",
       title: "Full-fledged TypeScript",
       description:
-        "Proficient in building robust and scalable web applications using TypeScript ecosystem.",
+        "From the stack to the tooling, a deep understanding of TypeScript ecosystem and its capabilities.",
     },
     {
       icon: "brainCircuit",
@@ -24,7 +24,7 @@ export async function GET(): Promise<Response> {
       icon: "server",
       title: "Backend Backed",
       description:
-        "Customize colors, spacing, shadows, fonts and many other settings with global theme object",
+        "Experienced in building robust and scalable services using microservices architecture, serverless functions, and AWS services.",
     },
   ];
 

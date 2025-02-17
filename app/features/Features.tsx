@@ -1,5 +1,3 @@
-'use client'
-
 import {
   Title,
   SimpleGrid,
@@ -7,23 +5,15 @@ import {
   ThemeIcon,
   Grid,
   GridCol,
-  Loader,
 } from "@mantine/core";
 import classes from "./Features.module.css";
 import { Feature } from "./types";
 import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
-import useSWR from "swr";
 
-export function FeaturesTitle() {
-  const { data: features = [], isLoading } = useSWR<Feature[]>(
-    "/features", (url: string) => fetch(url).then(res => res.json())
-  );
-
-  if (isLoading) {
-    return (
-      <Loader color="blue" />
-    )
-  }
+export async function FeaturesTitle() {
+  const features: Feature[] = await fetch(
+    process.env.NEXT_PUBLIC_API_URL + "/features"
+  ).then((res) => res.json());
 
   const textToIcon = (text: string) =>
   ({
@@ -89,3 +79,4 @@ export function FeaturesTitle() {
     </div>
   );
 }
+export const dynamic = 'force-dynamic';
