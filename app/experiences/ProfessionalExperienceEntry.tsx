@@ -1,31 +1,21 @@
-import { SimpleGrid, Text, Timeline, TimelineItem, Title } from "@mantine/core";
-import SkillsTags from "../SkillsTags/SkillsTags";
-
-interface ProfessionalExperienceEntryProps {
-  position: string;
-  company: string;
-  description: string;
-  skills: string[];
-  startDate: string;
-  endDate?: string;
-}
+import { SimpleGrid, Text, TimelineItem, Title } from "@mantine/core";
+import SkillsTags from "./SkillsTags";
+import { Experience } from "./types";
 
 /**
  * Renders a professional experience entry for a timeline.
  */
-const ProfessionalExperienceEntry: React.FC<
-  ProfessionalExperienceEntryProps
-> = ({
+const ProfessionalExperienceEntry: React.FC<Experience> = ({
   position,
   company,
   description,
   skills,
   startDate,
   endDate,
-  ...timelineProps
+  noDeveloper,
 }) => (
   <TimelineItem
-    {...timelineProps}
+    lineVariant={noDeveloper ? "dashed" : "solid"}
     title={
       <>
         <Title c="greenblue" order={4}>
