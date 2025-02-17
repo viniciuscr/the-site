@@ -27,7 +27,7 @@ const features = [
     icon: IconBrandTypescript,
     title: "Full-fledged TypeScript",
     description:
-      "Proficient in building robust and scalable web applications using TypeScript ecosystem.",
+      "From the stack to the tooling, a deep understanding of TypeScript ecosystem and its capabilities.",
   },
   {
     icon: IconBrain,
@@ -39,7 +39,7 @@ const features = [
     icon: IconStack3,
     title: "Backend Backed",
     description:
-      "Customize colors, spacing, shadows, fonts and many other settings with global theme object",
+      "Experienced in building robust and scalable services using microservices architecture, serverless functions, and AWS services.",
   },
 ];
 
