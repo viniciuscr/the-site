@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <AppShell className={classes.shell} padding="md">
       <AppShellMain>
-        <Box right={3} bottom={3} pos="fixed" display="flex">
+        <Box className="mantine-ColorSwitch-root" right={3} bottom={3} pos="fixed" display="flex">
           <ColorSwitch />
         </Box>
         <Box right={1} bottom={1} pos="fixed" display="flex"></Box>

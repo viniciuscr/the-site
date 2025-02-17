@@ -1,0 +1,43 @@
+@media print {
+
+
+
+    .mantine-Paper-root,
+    .mantine-AppShell-main {
+        background-color: white;
+        box-shadow: none;
+
+    }
+
+    .mantine-ThemeIcon-root,
+    .mantine-ColorSwitch-root,
+    .mantine-Timeline-itemBullet,
+    .mantine-Popover-dropdown {
+        display: none !important;
+    }
+
+    .mantine-Timeline-item {
+        --timeline-line-display: none;
+        margin-top: 20px;
+    }
+
+    .mantine-Paper-root,
+    .mantine-Title-root,
+    .mantine-Text-root,
+    .mantine-Pill-root {
+        color: black !important;
+    }
+
+    .mantine-Pill-root {
+        background-color: white;
+        padding: 0;
+    }
+
+    .mantine-Timeline-item,
+    .mantine-Timeline-root,
+    .mantine-Timeline-itemBody {
+        padding-left: 0;
+        padding-inline-start: 0 !important;
+    }
+
+}

@@ -13,6 +13,8 @@ export const metadata = {
   description: "Curriculum Vitae - Vinícius Castelani Reck",
 };
 
+import "./globals.css";
+
 export default function RootLayout({ children }: { children: any }) {
   return (
     <html lang="en" {...mantineHtmlProps}>
