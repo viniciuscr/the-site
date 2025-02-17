@@ -12,7 +12,7 @@ import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
 
 export async function FeaturesTitle() {
   const features: Feature[] = await fetch(
-    process.env.NEXT_PUBLIC_API_URL + "/features"
+    process.env.API_URL + "/features"
   ).then((res) => res.json());
 
   const textToIcon = (text: string) =>

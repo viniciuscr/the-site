@@ -3,7 +3,7 @@ import { Experience } from "./types";
 
 export async function ProfessionalExperience() {
   const experience: Experience[] = await (
-    await fetch(process.env.NEXT_PUBLIC_API_URL + "/experiences")
+    await fetch(process.env.API_URL + "/experiences")
   ).json();
 
   return experience.map((experience) => (
