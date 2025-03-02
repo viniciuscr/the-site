@@ -1,17 +1,17 @@
 import { Pill, PillGroup } from "@mantine/core";
 import { JSX } from "react";
-
+import classes from "./skilltags.module.css";
 /**
  * Renders a group of pill tags for skills.
  *
  * @param {Array<string>} skills - The skills to render as pill tags.
  * @returns {JSX.Element} - The rendered group of pill tags.
  */
-const SkillsTags = ({ skills }: { skills: string[] }): JSX.Element => (
-  <PillGroup>
+const SkillTags = ({ skills }: { skills: string[] }): JSX.Element => (
+  <PillGroup >
     {skills.map(
-      (line: string, index: number): JSX.Element => (
-        <Pill fw={600} key={index}>
+      (line: string): JSX.Element => (
+        <Pill className={classes.mantinePillRoot} fz="sm" fw={600} key={line}>
           {line}
         </Pill>
       )
@@ -19,4 +19,4 @@ const SkillsTags = ({ skills }: { skills: string[] }): JSX.Element => (
   </PillGroup>
 );
 
-export default SkillsTags;
+export default SkillTags;

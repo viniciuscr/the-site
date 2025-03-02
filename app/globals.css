@@ -1,12 +1,9 @@
 @media print {
 
-
-
     .mantine-Paper-root,
     .mantine-AppShell-main {
         background-color: white;
         box-shadow: none;
-
     }
 
     .mantine-ThemeIcon-root,
@@ -39,5 +36,4 @@
         padding-left: 0;
         padding-inline-start: 0 !important;
     }
-
 }

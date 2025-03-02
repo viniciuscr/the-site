@@ -11,6 +11,8 @@ import {
   TimelineItem,
   ListItem,
   AppShellMain,
+  Affix,
+  Text,
 } from "@mantine/core";
 import { FeaturesTitle } from "./features/Features";
 
@@ -22,9 +24,9 @@ export default function HomePage() {
   return (
     <AppShell className={classes.shell} padding="md">
       <AppShellMain>
-        <Box className="mantine-ColorSwitch-root" right={3} bottom={3} pos="fixed" display="flex">
+        <Affix position={{ bottom: 4, right: 4 }} className="mantine-ColorSwitch-root" >
           <ColorSwitch />
-        </Box>
+        </Affix>
         <Box right={1} bottom={1} pos="fixed" display="flex"></Box>
         <Grid m={"0 auto"} maw={{ lg: 1700 }} gutter="md">
           <GridCol span={12}>
@@ -46,8 +48,10 @@ export default function HomePage() {
               <GridCol>
                 <Paper shadow="sm" radius="md" p="xl">
                   <Title order={2}>Education</Title>
-                  Internet Systems Development Instituto Federal Sul
-                  Rio-Grandense Publications Analysis of opportunistic grid
+                  Graduated in <Text fs="italic" span>Internet Systems Development</Text> at <Text fs="italic" span>Instituto Federal Sul
+                    Rio-Grandense</Text>
+                  <Title order={3}>Publications</Title>
+                  Analysis of opportunistic grid
                   middleware in corporate and educational environments. FGIBD: A
                   Generic Framework for Database Integration focused on
                   Agriculture Data. Parallelisation and Execution of the CROPSIM

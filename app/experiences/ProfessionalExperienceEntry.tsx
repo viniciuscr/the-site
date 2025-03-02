@@ -1,5 +1,5 @@
 import { SimpleGrid, Text, TimelineItem, Title } from "@mantine/core";
-import SkillsTags from "./SkillsTags";
+import SkillTags from "./SkillTags";
 import { Experience } from "./types";
 
 /**
@@ -18,18 +18,18 @@ const ProfessionalExperienceEntry: React.FC<Experience> = ({
     lineVariant={noDeveloper ? "dashed" : "solid"}
     title={
       <>
-        <Title c="greenblue" order={4}>
+        <Title c="greenblue" order={3}>
           {position}
         </Title>
-        <Title order={5}>{company}</Title>
+        <Title td="underline" order={4}>{company}</Title>
       </>
     }
   >
     <SimpleGrid cols={1} spacing="xs">
-      <SkillsTags skills={skills} />
 
-      <Text size="sm">{description}</Text>
-      <Text c="dimmed" size="xs">
+      <Text ta="justify" >{description}</Text>
+      <SkillTags skills={skills} />
+      <Text c="dimmed" size="sm">
         {startDate} - {endDate ?? "current"}
       </Text>
     </SimpleGrid>
