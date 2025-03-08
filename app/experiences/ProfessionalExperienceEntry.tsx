@@ -1,6 +1,7 @@
-import { SimpleGrid, Text, TimelineItem, Title } from "@mantine/core";
+import { List, ListItem, SimpleGrid, Text, TimelineItem, Title } from "@mantine/core";
 import SkillTags from "./SkillTags";
 import { Experience } from "./types";
+
 
 /**
  * Renders a professional experience entry for a timeline.
@@ -13,6 +14,7 @@ const ProfessionalExperienceEntry: React.FC<Experience> = ({
   startDate,
   endDate,
   noDeveloper,
+  accomplishments
 }) => (
   <TimelineItem
     lineVariant={noDeveloper ? "dashed" : "solid"}
@@ -28,6 +30,14 @@ const ProfessionalExperienceEntry: React.FC<Experience> = ({
     <SimpleGrid cols={1} spacing="xs">
 
       <Text ta="justify" >{description}</Text>
+      <List>
+        {accomplishments?.map((accomplishment) => (
+          <ListItem key={accomplishment.topic}>
+            <Text fw="bold" >{accomplishment.topic}</Text>
+            <Text>{accomplishment.description}</Text>
+          </ListItem>
+        ))}
+      </List>
       <SkillTags skills={skills} />
       <Text c="dimmed" size="sm">
         {startDate} - {endDate ?? "current"}

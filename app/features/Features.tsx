@@ -47,7 +47,7 @@ export async function FeaturesTitle() {
           <Title className={classes.title} order={1}>
             Vinícius Castelani Reck
           </Title>
-          <Text>
+          <Text ta="justify" >
             As an accomplished Software Developer with over 10 years of
             experience, I am an expert in cutting-edge technologies such as
             Javascript, Typescript, React, and Node.js. With a proven track

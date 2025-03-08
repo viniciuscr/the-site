@@ -6,7 +6,7 @@ export async function GET(): Promise<Response> {
       icon: "proportions",
       title: "Focus on UX",
       description:
-        "Proficient in front-end development technologies, usability principles, and design aesthetics. Committed to delivering high-quality code and exceptional user experiences.",
+        "Proficient in front-end development technologies, usability principles, and design aesthetics. Committed to delivering exceptional user experiences.",
     },
     {
       icon: "braces",

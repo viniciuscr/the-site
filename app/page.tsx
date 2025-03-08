@@ -51,13 +51,21 @@ export default function HomePage() {
                   Graduated in <Text fs="italic" span>Internet Systems Development</Text> at <Text fs="italic" span>Instituto Federal Sul
                     Rio-Grandense</Text>
                   <Title order={3}>Publications</Title>
-                  Analysis of opportunistic grid
-                  middleware in corporate and educational environments. FGIBD: A
-                  Generic Framework for Database Integration focused on
-                  Agriculture Data. Parallelisation and Execution of the CROPSIM
-                  Mathematical Model for Simulation of Wheat Culture in an
-                  Opportunistic Grid. Computer Science Universidade de Passo
-                  Fundo
+                  <List>
+                    <ListItem>Analysis of opportunistic grid
+                      middleware in corporate and educational environments.
+                    </ListItem>
+                    <ListItem>FGIBD: A
+                      Generic Framework for Database Integration focused on
+                      Agriculture Data.
+                    </ListItem>
+                    <ListItem>
+                      Parallelisation and Execution of the CROPSIM
+                      Mathematical Model for Simulation of Wheat Culture in an
+                      Opportunistic Grid.
+                    </ListItem>
+                  </List>
+
                 </Paper>
               </GridCol>
               <GridCol>
@@ -114,5 +122,4 @@ export default function HomePage() {
     </AppShell>
   );
 }
-
 export const dynamic = 'force-dynamic'

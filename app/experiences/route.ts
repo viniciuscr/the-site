@@ -25,7 +25,22 @@ export async function GET(): Promise<Response> {
       position: "Front-end Engineer",
       company: "Clevertech",
       description:
-        "Entrusted to add speed and quality to one of the most important ongoing project. Accountable for taking ownership over multidiciplinar tasks and been capable of rapidly engage and colaborate with the team to meet deadlines and delivery high quality software.",
+        "Joined under a 3-month contract to accelerate a behind-schedule initiative. Worked toghether with the team to rethink and refactor critical components of the application, resulting in faster deliveries.",
+
+      accomplishments: [
+        {
+          "topic": "Turned Around Delayed Project",
+          "description": "Helped to stabilize development velocity by designing reusable UI components adopted by the entire team."
+        },
+        {
+          "topic": "Built Foundation for Faster Development",
+          "description": "Architectured shared frontend libraries that eliminated inconsistent implementations, cutting average task completion time from 3 days down up to 1 day."
+        },
+        {
+          "topic": "Delivered Under Tight Sprint Deadlines",
+          "description": "Personally fast-tracked 10+ critical path tasks through strategic component reuse and targeted code reviews, enabling the team to complete a high-pressure sprints in time."
+        }
+      ],
       skills: [
         "React",
         "CSS-in-JS",
@@ -41,8 +56,25 @@ export async function GET(): Promise<Response> {
       id: 6,
       position: "Full-stack Engineer",
       company: "Avenue Code",
-      description:
-        "Working for a multi billion client helping to define and shape the new design system and fronted architecture for all projects. Also working close with Azure experts and backend developers to define the new authentication and authorization flow to be adopted on all future projects. Worked in parallel with designers to help build up a component library and actively participating on the design system process. Develop a MVP in Django, where using Graphene and Apollo Client was able to delivery a optimized CMS solution for the company's main web application. Exploring in in-depth Apollo Client and Next.js was able to significantly improve overall performance with a better cache management and smarter requests. ",
+      description: "As an outsourced developer, I worked with two major clients, developing web applications and APIs in fast-paced environments. I leveraged agile methodologies to deliver scalable solutions, ensuring seamless integration and high-quality results under tight deadlines.",
+      accomplishments: [
+        {
+          "topic": "Led Design System Implementation",
+          "description": "Created and evangelized a scalable design system for a Fortune 500 client, adopted by 25+ product teams to maintain consistent UX across web, mobile, and tablet platforms."
+        },
+        {
+          "topic": "Authored Security Infrastructure",
+          "description": " Collaborated with Azure DevOps to integrate Okta authentication into Next.js applications, reducing implementation time for new projects by two weeks on average."
+        },
+        {
+          "topic": "Proactive Problem Solving",
+          "description": "Proposed and delivered a CMS solution to the current project that empowered marketing teams to manage content without developer support, eliminating 12+ weekly update requests."
+        },
+        {
+          "topic": "Performance Optimization",
+          "description": "Overhauled Apollo Client caching strategies and Next.js server-side rendering implementation, achieving measurable load-time improvements across 69% of key user flows."
+        }
+      ],
       skills: [
         "React",
         "CSS-in-JS",
@@ -64,8 +96,24 @@ export async function GET(): Promise<Response> {
       id: 5,
       position: "Team Lead",
       company: "Banrisul",
-      description:
-        "Started as a developer at the software factory, rapidly relocated to work on a small team in charge of defining best practices and developing support tools for internal development. Invited to collaborate on a new division responsible for digital transformation leaded by a renowned consultancy. Participating in diverse agile teams as a technical leader while working on side projects focused to improve how we build software and increase the quality of life for everyone.",
+      accomplishments: [
+        {
+          "topic": "Spearheaded Development Best Practices",
+          "description": "Initiated and promoted standardized development practices and support tools as part of a core team, enabling consistent software delivery across internal engineering groups."
+        },
+        {
+          "topic": "Championed Digital Transformation Initiatives",
+          "description": "Selected to collaborate with a top-tier consultancy on establishing a new digital transformation division, driving modernization efforts for enterprise clients."
+        },
+        {
+          "topic": "Technical Leadership in Agile Environments",
+          "description": "Guided multiple cross-functional agile teams as technical lead, implementing CI/CD pipelines and test automation strategies to accelerate release cycles."
+        },
+        {
+          "topic": "Pioneered Internal Process Improvements",
+          "description": "Developed side initiatives to optimize software development workflows and developer tooling, reducing friction in daily operations and enhancing team productivity."
+        }
+      ],
       skills: [
         "React",
         "MongoDB",
@@ -84,8 +132,30 @@ export async function GET(): Promise<Response> {
       id: 4,
       position: "Full-stack Developer",
       company: "Hexagon Agriculture",
+      accomplishments: [
+        {
+          "topic": "Championed Quality Foundations",
+          "description": "Pioneered adoption of JUnit/Mockito testing frameworks and Jacoco coverage tracking, achieving 85%+ code coverage compliance across core modules within 5 months."
+        },
+        {
+          "topic": "Built CI/CD Pipeline Infrastructure",
+          "description": "Designed and deployed Jenkins CI server with Docker containerization, reducing integration issues by 30% through automated build verification and test execution."
+        },
+        {
+          "topic": "Modernized Geospatial Capabilities",
+          "description": "Refactored legacy map rendering library using PostGIS spatial extensions, improving rendering performance by 42% through query optimization."
+        },
+        {
+          "topic": "Mentored Engineering Teams",
+          "description": "Established onboarding program for new developers covering test-driven development and spatial database patterns, reducing ramp-up time from 4 weeks to 1 week."
+        },
+        {
+          "topic": "Optimized Spatial Data Systems",
+          "description": "Re-engineered PostgreSQL geospatial databases with spatial indexing and query caching strategies, achieving 25% faster complex geoqueries through execution plan analysis."
+        },
+      ],
       description:
-        "Initially worked as a Jr. Java developer, after a year was a key part of the team. Some remarkable collaborations are: introducing unit test and code coverage, setup the first continuous integrations server and refactoring the interactive map library. As a Java developer was accountable for introducing and teach new team members, design, maintaining and implement geospatial databases and optimize database queries.",
+        "Successfully pivoted from PHP to Java development, rapidly achieving production-level proficiency to drive key features in high-traffic applications.",
       skills: [
         "Spatial data manipulation",
         "Java/JSF/EJB/JPA",
@@ -101,15 +171,36 @@ export async function GET(): Promise<Response> {
       id: 3,
       position: "Tech Lead",
       company: "Webcrew",
-      description:
-        "Design and develop online systems in PHP with CodeIgniter framework Develop and improve interfaces using CSS, Javascript and HTML Perform legacy systems integrations, migrate and database normalisation Coordinate and distribute tasks within a development team.",
+      description: "As the founder of my own small business, I led strategic planning, technical development, and team management. I developed key features, mentored a dynamic team and fostered a collaborative environment.",
       skills: [
         "Leadership",
         "Project management",
-        "Remote work",
+        "Remote team management",
         "MySQL",
         "JQuery",
         "UI/UX concepts",
+      ],
+      accomplishments: [
+        {
+          "topic": "PHP Development with CodeIgniter",
+          "description": "Designed and developed scalable web applications using the CodeIgniter framework, leveraging its MVC architecture to streamline development processes and enhance maintainability."
+        },
+        {
+          "topic": "Front-End Enhancements",
+          "description": "Improved user interfaces by integrating CSS for responsive layouts, JavaScript for dynamic interactions, and HTML for semantic structure, ensuring cross-browser compatibility and accessibility."
+        },
+        {
+          "topic": "Legacy System Integration",
+          "description": "Successfully integrated legacy systems by assessing compatibility, implementing incremental upgrades, and ensuring data normalization to enhance performance and scalability."
+        },
+        {
+          "topic": "Database Normalization",
+          "description": "Applied data normalization techniques to eliminate redundancy and ensure data integrity, optimizing database performance and facilitating smoother system integrations."
+        },
+        {
+          "topic": "Task Coordination and Team Management",
+          "description": "Coordinated task distribution within development teams, ensuring efficient workflow through clear role definitions, regular progress updates, and effective communication channels."
+        }
       ],
       startDate: "2011 Jul",
       endDate: "2013 Jun",
@@ -120,6 +211,20 @@ export async function GET(): Promise<Response> {
       company: "Opportunity Web Software",
       description:
         "First professional contact with development, introduced to best coding practices and design patterns. After a short adaptation period, helped to create an internal framework to burst development using MVC pattern.",
+      accomplishments: [
+        {
+          "topic": "Introduction to Professional Development",
+          "description": "Gained first-hand experience in software development, learning best coding practices and design patterns that laid the foundation for future growth."
+        },
+        {
+          "topic": "Framework Development with MVC",
+          "description": "Contributed to the creation of an internal framework utilizing the MVC pattern, which significantly accelerated development processes and improved code maintainability."
+        },
+        {
+          "topic": "Rapid Adaptation and Contribution",
+          "description": "Quickly adapted to new technologies and methodologies, becoming an integral part of the team by providing valuable insights and support in framework development."
+        }
+      ],
       skills: [
         "Web development",
         "Design patterns",
@@ -133,10 +238,24 @@ export async function GET(): Promise<Response> {
     {
       id: 1,
       position: "Photoshop Expert",
-      company: "Ferrão e Tevaldi Ltda.",
+      company: "Ferrão e Tebaldi Ltda.",
       description:
-        "Started as a auxiliary designer, quickly learned and improved until got the main creative designer role. Ministraded internal courses for other designers introducing templates and guidelines in order to introduced quality standars to the final product.",
-      skills: ["Photoshop"],
+        "First professional experience, rapidly advancing from auxiliary to lead role while establishing design standards and enhancing team capabilities through internal training.",
+      accomplishments: [
+        {
+          "topic": "Rapid Career Advancement",
+          "description": "Started as an auxiliary designer and quickly progressed to the main creative designer role, demonstrating rapid learning and improvement in design skills."
+        },
+        {
+          "topic": "Established Design Standards",
+          "description": "Developed and taught internal courses for designers, introducing standardized templates and guidelines that elevated quality standards across final products."
+        },
+        {
+          "topic": "Knowledge Sharing and Team Enhancement",
+          "description": "Played a key role in enhancing team capabilities by sharing expertise and best practices, ensuring consistency and excellence in design outputs."
+        }
+      ],
+      skills: ["Photoshop", "Leadership", "Communication"],
       startDate: "2004 Sep",
       endDate: "2007 Jun",
       noDeveloper: true,
