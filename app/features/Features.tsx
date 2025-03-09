@@ -5,10 +5,12 @@ import {
   ThemeIcon,
   Grid,
   GridCol,
+  Button,
 } from "@mantine/core";
 import classes from "./Features.module.css";
 import { Feature } from "./types";
 import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
+import PrintPDFButton from "./PrintPDFButton";
 
 export async function FeaturesTitle() {
   const features: Feature[] = await fetch(
@@ -58,17 +60,7 @@ export async function FeaturesTitle() {
             skillset and stay ahead of industry trends.
           </Text>
 
-          {/* 
-          TODO: implement pdf version
-          <Button
-            variant="gradient"
-            gradient={{ deg: 133, from: "blue", to: "cyan" }}
-            size="lg"
-            radius="md"
-            mt="xl"
-          >
-            Download as PDF
-          </Button> */}
+          <PrintPDFButton />
         </GridCol>
         <GridCol span={{ base: 12, md: 6 }}>
           <SimpleGrid cols={{ base: 1, md: 2 }} spacing={30}>
@@ -76,6 +68,6 @@ export async function FeaturesTitle() {
           </SimpleGrid>
         </GridCol>
       </Grid>
-    </div>
+    </div >
   );
 }

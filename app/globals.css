@@ -9,13 +9,16 @@
     .mantine-ThemeIcon-root,
     .mantine-ColorSwitch-root,
     .mantine-Timeline-itemBullet,
-    .mantine-Popover-dropdown {
+    .mantine-Popover-dropdown,
+    .mantine-Button-root,
+    .mantine-Tooltip-tooltip {
         display: none !important;
     }
 
     .mantine-Timeline-item {
         --timeline-line-display: none;
         margin-top: 20px;
+        break-after: always;
     }
 
     .mantine-Paper-root,
