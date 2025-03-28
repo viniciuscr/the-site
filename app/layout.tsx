@@ -7,6 +7,7 @@ import {
 } from "@mantine/core";
 import { theme } from "../theme";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "CV - Vinícius C. Reck",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: any }) {
       <body>
         <MantineProvider theme={theme}>{children}</MantineProvider>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
