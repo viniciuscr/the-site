@@ -6,8 +6,30 @@ export async function GET(): Promise<Response> {
       id: 9,
       position: "Full-stack Engineer",
       company: "Nationale Nederlanden",
-      description:
-        "Joined a multidisciplinary agile team, as a Senior Full Stack Engineer on AWS, where my main focus was to develop and deliver a robust and reliable solution mortgage application. In a fast-paced environment, I worked closely with domain experts and stakeholders to define and deliver a high-quality software product. Headed the team developing a in house solution for Optical Character Recognition (OCR) using GPT-4.",
+      description: "As a full-stack engineer, I contribute to key technological initiatives while serving as a resource for technical guidance and mentorship. I currently mentor two junior engineers and two data scientists, fostering a collaborative environment that supports growth and innovation.",
+      accomplishments: [
+        {
+          "topic": "Unified Monorepo Telemetry",
+          "description": "Streamlined telemetry solutions across the monorepo by leveraging AWS Powertools for robust logging, X-Ray tracing, and automated alerts. Delivered metrics and tracers to organized team channels, ensuring seamless integration with new application features."
+        },
+        {
+          "topic": "Led In-House OCR Solution Development",
+          "description": "Spearheaded the implementation of an in-house OCR solution, learning Python and data science principles to design production-ready Lambda functions. Successfully extracted structured JSON data from images while maintaining high standards for logging, tracing, and metrics."
+        },
+        {
+          "topic": "Explored LLMs and Ground Truth Processes",
+          "description": "Defined and shaped processes for creating ground truth datasets, deeply exploring LLMs to enhance OCR accuracy. Collaborated with two data scientists to deliver a scalable solution integrated into production workflows."
+        },
+        {
+          "topic": "Delivered Scalable Python Lambda Deployments",
+          "description": "Developed and deployed Python-based Lambda functions for OCR tasks, ensuring consistency, reliability, and compatibility with other teams' workflows. Maintained high telemetry standards across traces, logs, and metrics."
+        },
+        {
+          "topic": "Full-Stack Engineering with TypeScript",
+          "description": "Worked extensively as a full-stack engineer using TypeScript to build scalable applications, contributing to both frontend and backend development while driving innovation in system architecture."
+        }
+      ],
+
       skills: [
         "React",
         "Step Functions",
@@ -15,7 +37,9 @@ export async function GET(): Promise<Response> {
         "Typescript",
         "AWS Lambda",
         "Middy",
-        "llama-index",
+        "Python",
+        "Data Science",
+
       ],
       startDate: "2022 Feb",
       endDate: "Current",
