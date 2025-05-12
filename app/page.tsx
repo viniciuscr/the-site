@@ -13,6 +13,7 @@ import {
   AppShellMain,
   Affix,
   Text,
+  Flex,
 } from "@mantine/core";
 import { FeaturesTitle } from "./features/Features";
 
@@ -24,7 +25,10 @@ export default function HomePage() {
   return (
     <AppShell className={classes.shell} padding="md">
       <AppShellMain>
-        <Affix position={{ bottom: 4, right: 4 }} className="mantine-ColorSwitch-root" >
+        <Affix
+          position={{ bottom: 4, right: 4 }}
+          className="mantine-ColorSwitch-root"
+        >
           <ColorSwitch />
         </Affix>
         <Box right={1} bottom={1} pos="fixed" display="flex"></Box>
@@ -48,24 +52,30 @@ export default function HomePage() {
               <GridCol>
                 <Paper shadow="sm" radius="md" p="xl">
                   <Title order={2}>Education</Title>
-                  Graduated in <Text fs="italic" span>Internet Systems Development</Text> at <Text fs="italic" span>Instituto Federal Sul
-                    Rio-Grandense</Text>
+                  Graduated in{" "}
+                  <Text fs="italic" span>
+                    Internet Systems Development
+                  </Text>{" "}
+                  at{" "}
+                  <Text fs="italic" span>
+                    Instituto Federal Sul Rio-Grandense
+                  </Text>
                   <Title order={3}>Publications</Title>
                   <List>
-                    <ListItem>Analysis of opportunistic grid
-                      middleware in corporate and educational environments.
-                    </ListItem>
-                    <ListItem>FGIBD: A
-                      Generic Framework for Database Integration focused on
-                      Agriculture Data.
+                    <ListItem>
+                      Analysis of opportunistic grid middleware in corporate and
+                      educational environments.
                     </ListItem>
                     <ListItem>
-                      Parallelisation and Execution of the CROPSIM
-                      Mathematical Model for Simulation of Wheat Culture in an
-                      Opportunistic Grid.
+                      FGIBD: A Generic Framework for Database Integration
+                      focused on Agriculture Data.
+                    </ListItem>
+                    <ListItem>
+                      Parallelisation and Execution of the CROPSIM Mathematical
+                      Model for Simulation of Wheat Culture in an Opportunistic
+                      Grid.
                     </ListItem>
                   </List>
-
                 </Paper>
               </GridCol>
               <GridCol>
@@ -83,34 +93,47 @@ export default function HomePage() {
                   <Title order={2}>Profiles</Title>
                   <List>
                     <ListItem>
-                      <Anchor
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label="LinkedIn"
-                        href="https://www.linkedin.com/in/viniciuscreck/"
-                      >
-                        LinkedIn
-                      </Anchor>
+                      <Flex gap="xs">
+                        <Anchor
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label="LinkedIn"
+                          href="https://www.linkedin.com/in/viniciuscreck/"
+                        >
+                          LinkedIn
+                        </Anchor>
+                        <Text c="dimmed">
+                          https://www.linkedin.com/in/viniciuscreck/
+                        </Text>
+                      </Flex>
                     </ListItem>
                     <ListItem>
-                      <Anchor
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label="GitHub"
-                        href="https://github.com/viniciuscr"
-                      >
-                        GitHub
-                      </Anchor>
+                      <Flex gap="xs">
+                        <Anchor
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label="GitHub"
+                          href="https://github.com/viniciuscr"
+                        >
+                          GitHub
+                        </Anchor>
+                        <Text c="dimmed">https://github.com/viniciuscr</Text>
+                      </Flex>
                     </ListItem>
                     <ListItem>
-                      <Anchor
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label="HackerRank"
-                        href="https://www.hackerrank.com/profile/viniciuscr"
-                      >
-                        HackerHank
-                      </Anchor>
+                      <Flex gap="xs">
+                        <Anchor
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          aria-label="HackerRank"
+                          href="https://www.hackerrank.com/profile/viniciuscr"
+                        >
+                          HackerHank
+                        </Anchor>{" "}
+                        <Text c="dimmed">
+                          https://www.hackerrank.com/profile/viniciuscr
+                        </Text>
+                      </Flex>
                     </ListItem>
                   </List>
                 </Paper>

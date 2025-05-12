@@ -2,8 +2,8 @@
 
     .mantine-Paper-root,
     .mantine-AppShell-main {
-        background-color: white;
-        box-shadow: none;
+        background-color: white !important;
+        box-shadow: none !important;
     }
 
     .mantine-ThemeIcon-root,
@@ -16,9 +16,14 @@
     }
 
     .mantine-Timeline-item {
-        --timeline-line-display: none;
+        --timeline-line-display: none !important;
         margin-top: 20px;
+        break-inside: avoid;
         break-after: always;
+    }
+    
+    .mantine-Grid-col {
+        break-after: page;
     }
 
     .mantine-Paper-root,
@@ -28,9 +33,11 @@
         color: black !important;
     }
 
-    .mantine-Pill-root {
-        background-color: white;
-        padding: 0;
+    .mantine-Pill-root,
+    .mantine-Grid-col,
+    .mantine-AppShell-main  {
+        background-color: white !important;
+        padding: 0 !important;
     }
 
     .mantine-Timeline-item,
@@ -38,5 +45,13 @@
     .mantine-Timeline-itemBody {
         padding-left: 0;
         padding-inline-start: 0 !important;
+    }
+
+    .mantine-Grid-inner {
+        padding: 10px;
+
+    }
+    .mantine-List-item{
+     display: inline-flex;
     }
 }

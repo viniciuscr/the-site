@@ -9,8 +9,8 @@ import {
   PopoverDropdown,
   Text,
 } from "@mantine/core";
-import { IconSun, IconMoon } from "@tabler/icons-react";
 import cx from "clsx";
+import { Moon, Sun } from "lucide-react";
 import classes from "./ColorSwitch.module.css";
 import { useEffect, useState } from "react";
 
@@ -48,8 +48,8 @@ function ColorSwitch() {
           size="xl"
           aria-label="Toggle color scheme"
         >
-          <IconSun className={cx(classes.icon, classes.light)} stroke={1.5} />
-          <IconMoon className={cx(classes.icon, classes.dark)} stroke={1.5} />
+          <Sun className={cx(classes.icon, classes.light)} />
+          <Moon className={cx(classes.icon, classes.dark)} />
         </ActionIcon>
       </PopoverTarget>
       <PopoverDropdown>
