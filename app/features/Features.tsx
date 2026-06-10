@@ -9,7 +9,7 @@ import {
 } from "@mantine/core";
 import classes from "./Features.module.css";
 import { Feature } from "./types";
-import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
+import { Braces, BrainCircuit, Users, Server } from "lucide-react";
 import PrintPDFButton from "./PrintPDFButton";
 
 export async function FeaturesTitle() {
@@ -21,7 +21,7 @@ export async function FeaturesTitle() {
   ({
     braces: <Braces />,
     brainCircuit: <BrainCircuit />,
-    proportions: <Proportions />,
+    users: <Users />,
     server: <Server />,
   }[text]);
 

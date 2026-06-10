@@ -2,7 +2,7 @@ import { Feature } from "./types";
 
 export const features: Feature[] = [
   {
-    icon: "proportions",
+    icon: "users",
     title: "Technical Leadership",
     description:
       "Experienced leading cross-functional teams of engineers and data scientists. Focused on defining architectural standards, mentoring engineers, and aligning technical decisions with business outcomes.",
