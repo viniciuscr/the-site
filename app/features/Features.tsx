@@ -49,15 +49,21 @@ export async function FeaturesTitle() {
           <Title className={classes.title} order={1}>
             Vinícius Castelani Reck
           </Title>
-          <Text ta="justify" >
-            As an accomplished Software Developer with over 10 years of
-            experience, I am an expert in cutting-edge technologies such as
-            Javascript, Typescript, React, and Node.js. With a proven track
-            record of delivering high-quality software solutions that drive
-            innovation and exceed client expectations, I have gained proficiency
-            in microservices, serverless architecture, AWS services, and
-            databases. I am constantly seeking opportunities to expand my
-            skillset and stay ahead of industry trends.
+          <Text fz="md" fw={600} c="dimmed" mt={4}>
+            Staff Engineer · Technical Lead · Software Architect · 15+ YOE
+          </Text>
+          <Text fz="sm" c="blue" mt={4} mb="sm">
+            📍 Tokyo, Japan · Open to Relocation · HSP Visa Eligible
+          </Text>
+          <Text ta="justify">
+            With over 15 years of experience in software engineering, I
+            specialize in designing scalable architectures, leading
+            multicultural teams, and bridging the worlds of engineering and
+            data science. Currently leading a mixed team of developers and data
+            scientists on a Python-based AI workflow project, using LangGraph
+            to build complex multi-step agentic pipelines. Currently focused on
+            relocation opportunities in Tokyo, Japan (eligible for Highly
+            Skilled Professional Visa due to career history).
           </Text>
 
           <PrintPDFButton />

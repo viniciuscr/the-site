@@ -4,10 +4,22 @@ export async function GET(): Promise<Response> {
   const experiences: Experience[] = [
     {
       id: 9,
-      position: "Full-stack Engineer",
+      position: "Full-stack Engineer & Technical Lead",
       company: "Nationale Nederlanden",
-      description: "As a full-stack engineer, I contribute to key technological initiatives while serving as a resource for technical guidance and mentorship. I currently mentor two junior engineers and two data scientists, fostering a collaborative environment that supports growth and innovation.",
+      description: "Technical lead of a mixed team of software engineers and data scientists, driving key engineering initiatives and ensuring production-grade quality. Serve as the bridge between both disciplines — translating data science requirements into scalable engineering solutions and empowering the team to deliver with confidence.",
       accomplishments: [
+        {
+          "topic": "Led Mixed Engineering & Data Science Team",
+          "description": "Leading a cross-functional team of developers and data scientists on a Python-based AI project. Established engineering standards, code review workflows, and deployment practices that ensured production-grade reliability while enabling data scientists to contribute effectively to shared codebases."
+        },
+        {
+          "topic": "AI-Powered Client Acquisition Workflow with LangGraph",
+          "description": "Architected and developed a complex multi-step agentic workflow using LangGraph and Python, focused on automating client acquisition processes. Designed the state machine graph, defined node dependencies, and integrated observability throughout the pipeline to ensure reliability and auditability."
+        },
+        {
+          "topic": "AI Agent Development Practices & LLM Tooling",
+          "description": "Established team-wide best practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails that measurably boosted team productivity and code quality across the project."
+        },
         {
           "topic": "Unified Monorepo Telemetry",
           "description": "Streamlined telemetry solutions across the monorepo by leveraging AWS Powertools for robust logging, X-Ray tracing, and automated alerts. Delivered metrics and tracers to organized team channels, ensuring seamless integration with new application features."
@@ -20,14 +32,6 @@ export async function GET(): Promise<Response> {
           "topic": "Explored LLMs and Ground Truth Processes",
           "description": "Defined and shaped processes for creating ground truth datasets, deeply exploring LLMs to enhance OCR accuracy. Collaborated with two data scientists to deliver a scalable solution integrated into production workflows."
         },
-        {
-          "topic": "Delivered Scalable Python Lambda Deployments",
-          "description": "Developed and deployed Python-based Lambda functions for OCR tasks, ensuring consistency, reliability, and compatibility with other teams' workflows. Maintained high telemetry standards across traces, logs, and metrics."
-        },
-        {
-          "topic": "Full-Stack Engineering with TypeScript",
-          "description": "Worked extensively as a full-stack engineer using TypeScript to build scalable applications, contributing to both frontend and backend development while driving innovation in system architecture."
-        }
       ],
 
       skills: [
@@ -38,8 +42,10 @@ export async function GET(): Promise<Response> {
         "AWS Lambda",
         "Middy",
         "Python",
+        "LangGraph",
+        "AI Agents",
+        "GitHub Copilot",
         "Data Science",
-
       ],
       startDate: "2022 Feb",
       endDate: "Current",
