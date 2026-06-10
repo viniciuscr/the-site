@@ -5,7 +5,7 @@ export const features: Feature[] = [
     icon: "proportions",
     title: "Technical Leadership",
     description:
-      "15+ years leading cross-functional teams of engineers and data scientists. Experienced in defining architectural standards, mentoring engineers, and aligning technical decisions with business outcomes.",
+      "Experienced leading cross-functional teams of engineers and data scientists. Focused on defining architectural standards, mentoring engineers, and aligning technical decisions with business outcomes.",
   },
   {
     icon: "braces",
