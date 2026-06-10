@@ -1,12 +1,8 @@
 import ProfessionalExperienceEntry from "./ProfessionalExperienceEntry";
-import { Experience } from "./types";
+import { experiences } from "./data";
 
-export async function ProfessionalExperience() {
-  const experience: Experience[] = await (
-    await fetch(process.env.API_URL + "/experiences")
-  ).json();
-
-  return experience.map((experience) => (
+export function ProfessionalExperience() {
+  return experiences.map((experience) => (
     <ProfessionalExperienceEntry key={experience.id} {...experience} />
   ));
 }
