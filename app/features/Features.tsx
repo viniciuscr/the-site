@@ -50,13 +50,13 @@ export async function FeaturesTitle() {
             Vinícius Castelani Reck
           </Title>
           <Text fz="md" fw={600} c="dimmed" mt={4}>
-            Staff Engineer · Technical Lead · Software Architect · 15+ YOE
+            Staff Engineer · Technical Lead · Software Architect · 18+ YOE
           </Text>
           <Text fz="sm" c="blue" mt={4} mb="sm">
             📍 Tokyo, Japan · Open to Relocation · HSP Visa Eligible
           </Text>
           <Text ta="justify">
-            With over 15 years of experience in software engineering, I
+            With over 18 years of experience in software engineering, I
             specialize in designing scalable architectures, leading
             multicultural teams, and bridging the worlds of engineering and
             data science. Currently leading a mixed team of developers and data
