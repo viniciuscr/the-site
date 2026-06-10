@@ -8,11 +8,15 @@ import {
   Button,
 } from "@mantine/core";
 import classes from "./Features.module.css";
-import { features } from "./data";
+import { Feature } from "./types";
 import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
 import PrintPDFButton from "./PrintPDFButton";
 
-export function FeaturesTitle() {
+export async function FeaturesTitle() {
+  const features: Feature[] = await fetch(
+    process.env.API_URL + "/features"
+  ).then((res) => res.json());
+
   const textToIcon = (text: string) =>
   ({
     braces: <Braces />,
