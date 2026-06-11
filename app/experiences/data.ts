@@ -124,6 +124,7 @@ export const experiences: Experience[] = [
     id: 5,
     position: "Team Lead",
     company: "Banrisul",
+    description: "As Team Lead at one of Brazil's largest state banks, I guided cross-functional agile teams while driving digital transformation and establishing engineering standards across the organization.",
     accomplishments: [
       {
         "topic": "Spearheaded Development Best Practices",

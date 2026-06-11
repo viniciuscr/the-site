@@ -24,6 +24,10 @@
         break-before: avoid;
     }
 
+    .mantine-Timeline-itemBody {
+        break-inside: avoid;
+    }
+
     .mantine-List-root {
         break-before: avoid;
     }
