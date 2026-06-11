@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
     position: "Front-end Engineer",
     company: "Clevertech",
     description:
-      "Joined under a 3-month contract to accelerate a behind-schedule initiative. Worked toghether with the team to rethink and refactor critical components of the application, resulting in faster deliveries.",
+      "Joined under a 3-month contract to accelerate a behind-schedule initiative. Worked together with the team to rethink and refactor critical components of the application, resulting in faster deliveries.",
 
     accomplishments: [
       {

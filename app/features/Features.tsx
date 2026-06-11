@@ -61,7 +61,7 @@ export async function FeaturesTitle() {
             multicultural teams, and bridging the worlds of engineering and
             data science. Currently leading a mixed team of developers and data
             scientists on a Python-based AI workflow project, using LangGraph
-            to build complex multi-step agentic pipelines. Currently focused on
+            to build complex multi-step agentic pipelines. Focused on
             relocation opportunities in Tokyo, Japan (eligible for Highly
             Skilled Professional Visa due to career history).
           </Text>
