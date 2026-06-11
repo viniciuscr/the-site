@@ -24,6 +24,10 @@
         break-before: avoid;
     }
 
+    .mantine-List-root {
+        break-before: avoid;
+    }
+
     .mantine-Paper-root h1,
     .mantine-Paper-root h2,
     .mantine-Paper-root h3 {
