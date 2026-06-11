@@ -84,7 +84,7 @@ export default function HomePage() {
                   <List>
                     <ListItem>Portuguese - Native</ListItem>
                     <ListItem>English - Fluent</ListItem>
-                    <ListItem>Japanese - Basic(Learning)</ListItem>
+                    <ListItem>Japanese - Basic (Learning)</ListItem>
                   </List>
                 </Paper>
               </GridCol>
@@ -128,7 +128,7 @@ export default function HomePage() {
                           aria-label="HackerRank"
                           href="https://www.hackerrank.com/profile/viniciuscr"
                         >
-                          HackerHank
+                          HackerRank
                         </Anchor>{" "}
                         <Text c="dimmed">
                           https://www.hackerrank.com/profile/viniciuscr
@@ -145,4 +145,3 @@ export default function HomePage() {
     </AppShell>
   );
 }
-export const dynamic = 'force-dynamic'

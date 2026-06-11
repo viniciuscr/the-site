@@ -18,8 +18,28 @@
     .mantine-Timeline-item {
         --timeline-line-display: none !important;
         margin-top: 20px;
+    }
+
+    .mantine-Timeline-root {
+        break-before: avoid;
+    }
+
+    .mantine-Timeline-itemBody .mantine-SimpleGrid-root {
+        display: block !important;
+    }
+
+    .mantine-List-root {
+        break-before: avoid;
+    }
+
+    .mantine-List-item {
         break-inside: avoid;
-        break-after: always;
+    }
+
+    .mantine-Paper-root h1,
+    .mantine-Paper-root h2,
+    .mantine-Paper-root h3 {
+        break-after: avoid;
     }
     
     .mantine-Grid-col {
