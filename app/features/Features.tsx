@@ -53,7 +53,7 @@ export async function FeaturesTitle() {
             Staff Engineer · Technical Lead · Software Architect · 18+ YOE
           </Text>
           <Text fz="sm" c="blue" mt={4} mb="sm">
-            📍 Tokyo, Japan · Open to Relocation · HSP Visa Eligible
+            📍 Rotterdam, Netherlands · Open to Relocation to Japan · HSP Visa Eligible
           </Text>
           <Text ta="justify">
             With over 18 years of experience in software engineering, I
