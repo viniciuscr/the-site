@@ -9,7 +9,7 @@ import {
 } from "@mantine/core";
 import classes from "./Features.module.css";
 import { Feature } from "./types";
-import { Braces, BrainCircuit, Proportions, Server } from "lucide-react";
+import { Braces, BrainCircuit, Users, Server } from "lucide-react";
 import PrintPDFButton from "./PrintPDFButton";
 
 export async function FeaturesTitle() {
@@ -21,7 +21,7 @@ export async function FeaturesTitle() {
   ({
     braces: <Braces />,
     brainCircuit: <BrainCircuit />,
-    proportions: <Proportions />,
+    users: <Users />,
     server: <Server />,
   }[text]);
 
@@ -50,18 +50,18 @@ export async function FeaturesTitle() {
             Vinícius Castelani Reck
           </Title>
           <Text fz="md" fw={600} c="dimmed" mt={4}>
-            Staff Engineer · Technical Lead · Software Architect · 15+ YOE
+            Staff Engineer · Technical Lead · Software Architect · 18+ YOE
           </Text>
           <Text fz="sm" c="blue" mt={4} mb="sm">
-            📍 Tokyo, Japan · Open to Relocation · HSP Visa Eligible
+            📍 Rotterdam, Netherlands · Open to Relocation to Japan · HSP Visa Eligible
           </Text>
           <Text ta="justify">
-            With over 15 years of experience in software engineering, I
+            With over 18 years of experience in software engineering, I
             specialize in designing scalable architectures, leading
             multicultural teams, and bridging the worlds of engineering and
             data science. Currently leading a mixed team of developers and data
             scientists on a Python-based AI workflow project, using LangGraph
-            to build complex multi-step agentic pipelines. Currently focused on
+            to build complex multi-step agentic pipelines. Focused on
             relocation opportunities in Tokyo, Japan (eligible for Highly
             Skilled Professional Visa due to career history).
           </Text>

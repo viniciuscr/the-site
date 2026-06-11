@@ -24,24 +24,23 @@ const ProfessionalExperienceEntry: React.FC<Experience> = ({
           {position}
         </Title>
         <Title td="underline" order={4}>{company}</Title>
+        <Text c="dimmed" size="sm">
+          {startDate} — {endDate ?? "Current"}
+        </Text>
       </>
     }
   >
     <SimpleGrid cols={1} spacing="xs">
-
-      <Text ta="justify" >{description}</Text>
+      <Text ta="justify">{description}</Text>
       <List>
         {accomplishments?.map((accomplishment) => (
           <ListItem key={accomplishment.topic}>
-            <Text fw="bold" >{accomplishment.topic}</Text>
+            <Text fw="bold">{accomplishment.topic}</Text>
             <Text>{accomplishment.description}</Text>
           </ListItem>
         ))}
       </List>
       <SkillTags skills={skills} />
-      <Text c="dimmed" size="sm">
-        {startDate} - {endDate ?? "current"}
-      </Text>
     </SimpleGrid>
   </TimelineItem>
 );
