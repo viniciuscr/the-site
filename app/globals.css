@@ -19,7 +19,12 @@
         --timeline-line-display: none !important;
         margin-top: 20px;
         break-inside: avoid;
-        break-after: always;
+    }
+
+    .mantine-Paper-root h1,
+    .mantine-Paper-root h2,
+    .mantine-Paper-root h3 {
+        break-after: avoid;
     }
     
     .mantine-Grid-col {
