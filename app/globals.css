@@ -18,7 +18,10 @@
     .mantine-Timeline-item {
         --timeline-line-display: none !important;
         margin-top: 20px;
-        break-inside: avoid;
+    }
+
+    .mantine-Timeline-root {
+        break-before: avoid;
     }
 
     .mantine-Paper-root h1,
