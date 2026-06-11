@@ -24,8 +24,8 @@
         break-before: avoid;
     }
 
-    .mantine-Timeline-itemBody {
-        break-inside: avoid;
+    .mantine-Timeline-itemBody .mantine-SimpleGrid-root {
+        display: block !important;
     }
 
     .mantine-List-root {
