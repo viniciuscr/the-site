@@ -5,31 +5,23 @@ export const experiences: Experience[] = [
     id: 9,
     position: "Full-stack Engineer & Technical Lead",
     company: "Nationale Nederlanden",
-    description: "Technical lead of a mixed team of software engineers and data scientists, driving key engineering initiatives and ensuring production-grade quality. Serve as the bridge between both disciplines — translating data science requirements into scalable engineering solutions and empowering the team to deliver with confidence.",
+    description: "Technical lead bridging software engineering and data science, setting production standards, mentoring engineers, and translating data science requirements into scalable, observable systems.",
     accomplishments: [
       {
-        "topic": "Led Mixed Engineering & Data Science Team",
-        "description": "Leading a cross-functional team of developers and data scientists on a Python-based AI project. Established engineering standards, code review workflows, and deployment practices that ensured production-grade reliability while enabling data scientists to contribute effectively to shared codebases."
-      },
-      {
         "topic": "AI-Powered Client Acquisition Workflow with LangGraph",
-        "description": "Architected and developed a complex multi-step agentic workflow using LangGraph and Python, focused on automating client acquisition processes. Designed the state machine graph, defined node dependencies, and integrated observability throughout the pipeline to ensure reliability and auditability."
+        "description": "Architected a multi-step agentic workflow using LangGraph and Python to automate client acquisition. Designed the state machine graph, defined node dependencies, and integrated observability throughout the pipeline."
       },
       {
         "topic": "AI Agent Development Practices & LLM Tooling",
-        "description": "Established team-wide best practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails that measurably boosted team productivity and code quality across the project."
+        "description": "Established team-wide best practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails that measurably boosted team productivity and code quality."
       },
       {
         "topic": "Unified Monorepo Telemetry",
-        "description": "Streamlined telemetry solutions across the monorepo by leveraging AWS Powertools for robust logging, X-Ray tracing, and automated alerts. Delivered metrics and tracers to organized team channels, ensuring seamless integration with new application features."
+        "description": "Streamlined telemetry across the monorepo using AWS Powertools for logging, X-Ray tracing, and automated alerts, ensuring seamless integration with new application features."
       },
       {
         "topic": "Led In-House OCR Solution Development",
-        "description": "Spearheaded the implementation of an in-house OCR solution, learning Python and data science principles to design production-ready Lambda functions. Successfully extracted structured JSON data from images while maintaining high standards for logging, tracing, and metrics."
-      },
-      {
-        "topic": "Explored LLMs and Ground Truth Processes",
-        "description": "Defined and shaped processes for creating ground truth datasets, deeply exploring LLMs to enhance OCR accuracy. Collaborated with two data scientists to deliver a scalable solution integrated into production workflows."
+        "description": "Spearheaded an in-house OCR solution using Python Lambda functions to extract structured JSON from images, integrating LLMs and ground truth processes to ensure accuracy and production-grade observability."
       },
     ],
     skills: [
