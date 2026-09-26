@@ -19,7 +19,10 @@ import { FeaturesTitle } from "./features/Features";
 
 import ColorSwitch from "@/components/ColorSwitch/ColorSwitch";
 import classes from "./page.module.css";
-import { ProfessionalExperience } from "./experiences/ProfessionalEsperiences";
+import {
+  EarlierExperience,
+  ProfessionalExperience,
+} from "./experiences/ProfessionalEsperiences";
 
 export default function HomePage() {
   return (
@@ -76,6 +79,10 @@ export default function HomePage() {
                       Grid.
                     </ListItem>
                   </List>
+                  <Title order={3} mt="xl">
+                    Earlier Experience
+                  </Title>
+                  <EarlierExperience />
                 </Paper>
               </GridCol>
               <GridCol>
