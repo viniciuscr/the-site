@@ -17,7 +17,7 @@ export const features: Feature[] = [
     icon: "brainCircuit",
     title: "AI & LLM Engineering",
     description:
-      "Hands-on experience designing agentic workflows with LangGraph, building LLM-assisted features, and establishing AI agent development practices (agents.md, GitHub Copilot). Bridging data science and engineering in production.",
+      "Hands-on experience designing agentic workflows with LangGraph, building LLM-assisted document-analysis features, and establishing AI agent development practices (agents.md, GitHub Copilot). Bridging data science and engineering in production.",
   },
   {
     icon: "server",

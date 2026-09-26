@@ -3,17 +3,17 @@ import { Experience } from "./types";
 export const experiences: Experience[] = [
   {
     id: 9,
-    position: "Full-stack Engineer & Technical Lead",
+    position: "AI Engineer",
     company: "Nationale Nederlanden",
-    description: "Technical lead bridging software engineering and data science, setting production standards, mentoring engineers, and translating data science requirements into scalable, observable systems.",
+    description: "Engineering lead for one group within a larger two-group team, working across both groups on technical decisions. I build production AI systems and contribute to architecture, technical reviews, hiring interviews, mentoring, and the translation of data science requirements into scalable, observable software.",
     accomplishments: [
       {
-        "topic": "AI-Powered Client Acquisition Workflow with LangGraph",
-        "description": "Architected a multi-step agentic workflow using LangGraph and Python to automate client acquisition. Designed the state machine graph, defined node dependencies, and integrated observability throughout the pipeline."
+        "topic": "AI-Powered Mortgage Document Analysis with LangGraph",
+        "description": "Helped deliver a production system that analyzes mortgage documents to determine whether the information is complete for a new mortgage application. Designed a multi-step agentic workflow with LangGraph and Python, including state transitions, node dependencies, and observability throughout the pipeline."
       },
       {
         "topic": "AI Agent Development Practices & LLM Tooling",
-        "description": "Established team-wide best practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails that measurably boosted team productivity and code quality."
+        "description": "Established team-wide practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails to support consistent development practices."
       },
       {
         "topic": "Unified Monorepo Telemetry",
@@ -21,7 +21,7 @@ export const experiences: Experience[] = [
       },
       {
         "topic": "Led In-House OCR Solution Development",
-        "description": "Spearheaded an in-house OCR solution using Python Lambda functions to extract structured JSON from images, integrating LLMs and ground truth processes to ensure accuracy and production-grade observability."
+        "description": "Led development of an in-house OCR solution using Python Lambda functions to extract structured JSON from mortgage documents, integrating LLMs, ground-truth processes, and production-grade observability."
       },
     ],
     skills: [
@@ -35,7 +35,7 @@ export const experiences: Experience[] = [
       "LangGraph",
       "AI Agents",
       "GitHub Copilot",
-      "Data Science",
+      "Technical Leadership",
     ],
     startDate: "2022 Feb",
     endDate: "Current",

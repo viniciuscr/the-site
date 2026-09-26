@@ -50,20 +50,19 @@ export async function FeaturesTitle() {
             Vinícius Castelani Reck
           </Title>
           <Text fz="md" fw={600} c="dimmed" mt={4}>
-            Staff Engineer · Technical Lead · Software Architect · 18+ YOE
+            AI Engineer · Engineering Lead · Technical Lead · 18+ Years in Software Engineering
           </Text>
           <Text fz="sm" c="blue" mt={4} mb="sm">
-            📍 Rotterdam, Netherlands · Open to Relocation to Japan · HSP Visa Eligible
+            📍 Rotterdam, Netherlands · Open to Relocation to Japan
           </Text>
           <Text ta="justify">
-            With over 18 years of experience in software engineering, I
-            specialize in designing scalable architectures, leading
-            multicultural teams, and bridging the worlds of engineering and
-            data science. Currently leading a mixed team of developers and data
-            scientists on a Python-based AI workflow project, using LangGraph
-            to build complex multi-step agentic pipelines. Focused on
-            relocation opportunities in Tokyo, Japan (eligible for Highly
-            Skilled Professional Visa due to career history).
+            AI Engineer with over 18 years in software engineering, focused on
+            building production AI systems and scalable software architectures.
+            I lead engineering for one group within a larger two-group team,
+            work across both groups, and contribute to architecture, technical
+            reviews, hiring, and mentoring. Most recently, I helped deliver a
+            production system that analyzes mortgage documents using an
+            in-house OCR solution and LLM-powered workflows.
           </Text>
 
           <PrintPDFButton />
