@@ -5,24 +5,30 @@ export const features: Feature[] = [
     icon: "users",
     title: "Technical Leadership",
     description:
-      "Experienced leading cross-functional teams of engineers and data scientists. Focused on defining architectural standards, mentoring engineers, and aligning technical decisions with business outcomes.",
+      "Senior engineer and engineering lead for one team within a two-team squad. Contributes to technical and architecture decisions across both teams, and works with engineering and data science colleagues.",
   },
   {
     icon: "braces",
-    title: "Full-Stack Architecture",
+    title: "Backend, Cloud & Architecture",
     description:
-      "Deep expertise in TypeScript, React, Node.js and Python across frontend, backend, and serverless architectures. From design systems to AWS Lambda pipelines — full ownership of the stack.",
+      "Experience across Python, Node.js, TypeScript, Java, C#, APIs, microservices, databases, AWS serverless systems, and CI/CD, alongside software architecture and backend engineering.",
   },
   {
     icon: "brainCircuit",
     title: "AI & LLM Engineering",
     description:
-      "Hands-on experience designing agentic workflows with LangGraph, building LLM-assisted document-analysis features, and establishing AI agent development practices (agents.md, GitHub Copilot). Bridging data science and engineering in production.",
+      "Contributes to Python and LangGraph document-analysis workflows involving LLMs and OCR, and works across engineering and data science. Experience also includes AI-assisted development tooling.",
+  },
+  {
+    icon: "layout",
+    title: "Frontend Engineering",
+    description:
+      "Deep hands-on experience with React, Next.js, TypeScript, design systems, frontend architecture, GraphQL, and application performance.",
   },
   {
     icon: "server",
-    title: "Scalable Systems Design",
+    title: "Cloud & Operations",
     description:
-      "Proven track record designing microservices, serverless functions, and event-driven architectures on AWS. Focused on observability, distributed tracing, and telemetry to ensure production-grade reliability.",
+      "Experience with serverless functions, AWS Lambda and Step Functions, telemetry with AWS Powertools and X-Ray, CI/CD, Docker, and database query optimization.",
   },
 ];
