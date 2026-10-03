@@ -9,7 +9,7 @@ import {
 } from "@mantine/core";
 import classes from "./Features.module.css";
 import { Feature } from "./types";
-import { Braces, BrainCircuit, Users, Server } from "lucide-react";
+import { Braces, BrainCircuit, Users, Server, LayoutDashboard } from "lucide-react";
 import PrintPDFButton from "./PrintPDFButton";
 
 export async function FeaturesTitle() {
@@ -23,6 +23,7 @@ export async function FeaturesTitle() {
     brainCircuit: <BrainCircuit />,
     users: <Users />,
     server: <Server />,
+    layout: <LayoutDashboard />,
   }[text]);
 
   const items = features.map((feature) => (
@@ -50,19 +51,20 @@ export async function FeaturesTitle() {
             Vinícius Castelani Reck
           </Title>
           <Text fz="md" fw={600} c="dimmed" mt={4}>
-            AI Engineer · Engineering Lead · Technical Lead · 18+ Years in Software Engineering
+            Staff-Level Software Engineer · Technical Lead · Software Architect
           </Text>
           <Text fz="sm" c="blue" mt={4} mb="sm">
             📍 Rotterdam, Netherlands · Open to Relocation to Japan
           </Text>
           <Text ta="justify">
-            AI Engineer with over 18 years in software engineering, focused on
-            building production AI systems and scalable software architectures.
-            I lead engineering for one group within a larger two-group team,
-            work across both groups, and contribute to architecture, technical
-            reviews, hiring, and mentoring. Most recently, I helped deliver a
-            production system that analyzes mortgage documents using an
-            in-house OCR solution and LLM-powered workflows.
+            Staff-level software engineer and technical leader with 18+ years
+            building software across frontend, backend, and cloud systems.
+            Experienced in architecture and full-stack delivery with Python,
+            TypeScript, JavaScript, Node.js, AWS, APIs, and databases. Recent
+            work focuses on production AI and LLM systems, including Python
+            workflows, document analysis, OCR, and observability. Leads technical
+            decisions and collaborates with engineering and data science teams
+            to take complex systems into production.
           </Text>
 
           <PrintPDFButton />

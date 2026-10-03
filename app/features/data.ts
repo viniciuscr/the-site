@@ -5,13 +5,13 @@ export const features: Feature[] = [
     icon: "users",
     title: "Technical Leadership",
     description:
-      "Experienced leading cross-functional teams of engineers and data scientists. Focused on defining architectural standards, mentoring engineers, and aligning technical decisions with business outcomes.",
+      "Leads technical decisions across engineering and data science, with experience in architecture, technical reviews, mentoring, hiring, and engineering standards.",
   },
   {
     icon: "braces",
-    title: "Full-Stack Architecture",
+    title: "Backend, Cloud & Architecture",
     description:
-      "Deep expertise in TypeScript, React, Node.js and Python across frontend, backend, and serverless architectures. From design systems to AWS Lambda pipelines — full ownership of the stack.",
+      "Full-stack experience across Python, Node.js, TypeScript, Java, C#, APIs, microservices, and databases, with AWS serverless systems, CI/CD, and distributed application architecture.",
   },
   {
     icon: "brainCircuit",
@@ -20,9 +20,15 @@ export const features: Feature[] = [
       "Hands-on experience designing agentic workflows with LangGraph, building LLM-assisted document-analysis features, and establishing AI agent development practices (agents.md, GitHub Copilot). Bridging data science and engineering in production.",
   },
   {
-    icon: "server",
-    title: "Scalable Systems Design",
+    icon: "layout",
+    title: "Frontend Engineering",
     description:
-      "Proven track record designing microservices, serverless functions, and event-driven architectures on AWS. Focused on observability, distributed tracing, and telemetry to ensure production-grade reliability.",
+      "Deep hands-on experience with React, Next.js, TypeScript, design systems, frontend architecture, GraphQL, and application performance.",
+  },
+  {
+    icon: "server",
+    title: "Scalable Systems & Operations",
+    description:
+      "Experience with microservices, serverless functions, AWS Lambda and Step Functions, production observability, distributed tracing, CI/CD, Docker, and database optimization.",
   },
 ];

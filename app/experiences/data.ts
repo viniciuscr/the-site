@@ -5,36 +5,36 @@ export const experiences: Experience[] = [
     id: 9,
     position: "AI Engineer",
     company: "Nationale Nederlanden",
-    description: "Engineering lead for one group within a larger two-group team, working across both groups on technical decisions. I build production AI systems and contribute to architecture, technical reviews, hiring interviews, mentoring, and the translation of data science requirements into scalable, observable software.",
+    description: "Engineering lead for one group within a larger two-group team, contributing to technical decisions across both groups. Builds production AI systems and shapes architecture through technical reviews, hiring interviews, mentoring, and translating data science requirements into scalable, observable software.",
     accomplishments: [
       {
-        "topic": "AI-Powered Mortgage Document Analysis with LangGraph",
-        "description": "Helped deliver a production system that analyzes mortgage documents to determine whether the information is complete for a new mortgage application. Designed a multi-step agentic workflow with LangGraph and Python, including state transitions, node dependencies, and observability throughout the pipeline."
+        "topic": "Production Mortgage Document Analysis",
+        "description": "Helped deliver a production system that checks mortgage application documents for completeness. Designed a multi-step Python and LangGraph workflow, defining state transitions and node dependencies and adding observability across the pipeline."
       },
       {
-        "topic": "AI Agent Development Practices & LLM Tooling",
-        "description": "Established team-wide practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails to support consistent development practices."
+        "topic": "Production Telemetry",
+        "description": "Standardized telemetry across the monorepo with AWS Powertools logging, X-Ray tracing, and automated alerts, supporting integration with new application features."
       },
       {
-        "topic": "Unified Monorepo Telemetry",
-        "description": "Streamlined telemetry across the monorepo using AWS Powertools for logging, X-Ray tracing, and automated alerts, ensuring seamless integration with new application features."
+        "topic": "In-House OCR Solution",
+        "description": "Led development of an OCR solution using Python Lambda functions to extract structured JSON from mortgage documents, integrating LLMs, ground-truth processes, and production observability."
       },
       {
-        "topic": "Led In-House OCR Solution Development",
-        "description": "Led development of an in-house OCR solution using Python Lambda functions to extract structured JSON from mortgage documents, integrating LLMs, ground-truth processes, and production-grade observability."
+        "topic": "AI-Assisted Engineering Practices",
+        "description": "Established team practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails for consistent use."
       },
     ],
     skills: [
-      "React",
-      "Step Functions",
-      "Next.js",
-      "Typescript",
-      "AWS Lambda",
-      "Middy",
       "Python",
       "LangGraph",
       "AI Agents",
       "GitHub Copilot",
+      "AWS Lambda",
+      "Step Functions",
+      "Middy",
+      "Typescript",
+      "React",
+      "Next.js",
       "Technical Leadership",
     ],
     startDate: "2022 Feb",
@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
     position: "Front-end Engineer",
     company: "Clevertech",
     description:
-      "Joined under a 3-month contract to accelerate a behind-schedule initiative. Worked together with the team to rethink and refactor critical components of the application, resulting in faster deliveries.",
+      "Joined on a three-month contract to help recover a delayed initiative. Worked with the team to rethink and refactor critical application components and improve delivery speed.",
 
     accomplishments: [
       {
@@ -53,12 +53,12 @@ export const experiences: Experience[] = [
         "description": "Helped to stabilize development velocity by designing reusable UI components adopted by the entire team."
       },
       {
-        "topic": "Built Foundation for Faster Development",
-        "description": "Architectured shared frontend libraries that eliminated inconsistent implementations, cutting average task completion time from 3 days down up to 1 day."
+        "topic": "Shared Frontend Architecture",
+        "description": "Designed shared frontend libraries to replace inconsistent implementations, reducing average task completion time from three days to as little as one day."
       },
       {
-        "topic": "Delivered Under Tight Sprint Deadlines",
-        "description": "Personally fast-tracked 10+ critical path tasks through strategic component reuse and targeted code reviews, enabling the team to complete a high-pressure sprints in time."
+        "topic": "Critical-Path Delivery",
+        "description": "Fast-tracked 10+ critical-path tasks through component reuse and targeted code reviews, helping the team complete a high-pressure sprint on time."
       }
     ],
     skills: [
@@ -76,15 +76,15 @@ export const experiences: Experience[] = [
     id: 6,
     position: "Full-stack Engineer",
     company: "Avenue Code",
-    description: "As an outsourced developer, I worked with two major clients, developing web applications and APIs in fast-paced environments. I leveraged agile methodologies to deliver scalable solutions, ensuring seamless integration and high-quality results under tight deadlines.",
+    description: "Full-stack engineer for two major clients, developing web applications and APIs in fast-paced environments. Work spanned frontend applications and backend services, including Python/Django and microservices, alongside architecture and integration concerns.",
     accomplishments: [
       {
         "topic": "Led Design System Implementation",
         "description": "Created and evangelized a scalable design system for a Fortune 500 client, adopted by 25+ product teams to maintain consistent UX across web, mobile, and tablet platforms."
       },
       {
-        "topic": "Authored Security Infrastructure",
-        "description": " Collaborated with Azure DevOps to integrate Okta authentication into Next.js applications, reducing implementation time for new projects by two weeks on average."
+        "topic": "Reusable Authentication Integration",
+        "description": "Integrated Okta authentication into Next.js applications with Azure DevOps, reducing implementation time for new projects by two weeks on average."
       },
       {
         "topic": "Proactive Problem Solving",
@@ -116,7 +116,7 @@ export const experiences: Experience[] = [
     id: 5,
     position: "Team Lead",
     company: "Banrisul",
-    description: "As Team Lead at one of Brazil's largest state banks, I guided cross-functional agile teams while driving digital transformation and establishing engineering standards across the organization.",
+    description: "Team Lead at one of Brazil's largest state banks, guiding cross-functional agile teams, establishing engineering standards, and contributing to digital transformation and modernization initiatives.",
     accomplishments: [
       {
         "topic": "Spearheaded Development Best Practices",
@@ -127,8 +127,8 @@ export const experiences: Experience[] = [
         "description": "Selected to collaborate with a top-tier consultancy on establishing a new digital transformation division, driving modernization efforts for enterprise clients."
       },
       {
-        "topic": "Technical Leadership in Agile Environments",
-        "description": "Guided multiple cross-functional agile teams as technical lead, implementing CI/CD pipelines and test automation strategies to accelerate release cycles."
+        "topic": "Technical Leadership and Delivery Practices",
+        "description": "Guided multiple cross-functional agile teams as technical lead and implemented CI/CD pipelines and test automation strategies to accelerate release cycles."
       },
       {
         "topic": "Pioneered Internal Process Improvements",
@@ -136,14 +136,14 @@ export const experiences: Experience[] = [
       }
     ],
     skills: [
-      "React",
-      "MongoDB",
-      "Webpack",
       "Software architecture",
-      "C#",
-      "Node.js",
       "Microservices",
       "RESTful Web services",
+      "C#",
+      "Node.js",
+      "MongoDB",
+      "React",
+      "Webpack",
       "Hybrid Applications",
     ],
     startDate: "2015 Sep",
@@ -163,8 +163,8 @@ export const experiences: Experience[] = [
         "description": "Designed and deployed Jenkins CI server with Docker containerization, reducing integration issues by 30% through automated build verification and test execution."
       },
       {
-        "topic": "Modernized Geospatial Capabilities",
-        "description": "Refactored legacy map rendering library using PostGIS spatial extensions, improving rendering performance by 42% through query optimization."
+        "topic": "Geospatial Application and Query Optimization",
+        "description": "Refactored a legacy map-rendering library and optimized PostGIS queries, improving rendering performance by 42%."
       },
       {
         "topic": "Mentored Engineering Teams",
@@ -176,14 +176,14 @@ export const experiences: Experience[] = [
       },
     ],
     description:
-      "Successfully pivoted from PHP to Java development, rapidly achieving production-level proficiency to drive key features in high-traffic applications.",
+      "Full-stack developer delivering Java application features across server-side services, REST APIs, and geospatial data systems.",
     skills: [
-      "Spatial data manipulation",
       "Java/JSF/EJB/JPA",
       "RESTful Web services",
+      "Postgres / PostGIS",
+      "Spatial data manipulation",
       "Jboss management",
       "Shell script",
-      "Postgres / PostGIS",
     ],
     startDate: "2013 Jul",
     endDate: "2015 Aug",
