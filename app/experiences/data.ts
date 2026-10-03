@@ -5,19 +5,27 @@ export const experiences: Experience[] = [
     id: 9,
     position: "AI Engineer",
     company: "Nationale Nederlanden",
-    description: "Senior engineer and engineering lead for one of two teams in the squad; a separate Tech Lead serves the squad. Contributes to technical decisions across both teams and often participates in architecture decisions for both. Works with data science and engineering colleagues on AI systems.",
+    description: "Senior engineer who informally leads engineering work within one of two teams in the squad. Contributes to the document-analysis system's overall architecture alongside the Tech Lead and Staff/Principal Engineer, and participates in almost all technical decisions across the system.",
     accomplishments: [
       {
-        "topic": "Mortgage Document Analysis Workflow",
-        "description": "Works as engineering lead within one of the two teams contributing to a multi-step Python and LangGraph workflow that checks mortgage application documents for completeness."
+        "topic": "Agentic Workflow Engineering",
+        "description": "Designs and implements agentic workflows in Python and LangGraph, defining states, nodes, dependencies, and transitions. Main engineer responsible for designing and implementing the workflow for a new feature."
       },
       {
-        "topic": "Monorepo Telemetry",
-        "description": "Personally implemented telemetry across the monorepo using AWS Powertools for logging, X-Ray tracing, and automated alerts."
+        "topic": "LLM Integration and Evaluation",
+        "description": "Integrates LLMs and contributes to prompt design and model and tool selection and configuration with data scientists. Uses evaluation results to inform technical decisions."
       },
       {
-        "topic": "In-House OCR Solution",
-        "description": "Contributed to an in-house OCR solution using Python Lambda functions to extract structured JSON from mortgage documents, integrating LLMs and ground-truth processes."
+        "topic": "Telemetry, Observability, and Analysis",
+        "description": "Designs and implements telemetry and observability architecture for AI and document-analysis workflows using AWS Powertools, X-Ray tracing, and automated alerts. Analyzes telemetry alongside LLM outputs and document-analysis data."
+      },
+      {
+        "topic": "AI Evaluation and Data Analysis",
+        "description": "Conducts hands-on data analysis and experiments, evaluates AI/LLM behavior, and participates in defining evaluation methods that inform engineering decisions."
+      },
+      {
+        "topic": "Technical Leadership and Mentoring",
+        "description": "Conducts technical interviews, evaluates candidates, and makes hiring recommendations with teammates. Formally mentors engineers and data scientists, helping develop software engineering skills and bridge gaps between disciplines."
       },
     ],
     skills: [
