@@ -49,20 +49,20 @@ export const experiences: Experience[] = [
     position: "Front-end Engineer",
     company: "Clevertech",
     description:
-      "Joined on a short-term contract to help recover a delayed initiative. Worked with the team to rethink and refactor critical frontend application components.",
+      "Joined a 3-month contract to help accelerate a behind-schedule initiative. Worked with the team to rethink and refactor critical application components, improving development flow through reusable frontend architecture.",
 
     accomplishments: [
       {
-        "topic": "Turned Around Delayed Project",
-        "description": "Helped to stabilize development velocity by designing reusable UI components adopted by the entire team."
+        "topic": "Reusable UI Components",
+        "description": "Designed reusable UI components adopted across the team, helping establish a more consistent approach to frontend development."
       },
       {
         "topic": "Shared Frontend Libraries",
-        "description": "Designed shared frontend libraries to replace inconsistent implementations and support more consistent development across the team."
+        "description": "Architected shared frontend libraries to reduce inconsistent implementations and simplify development across the application."
       },
       {
-        "topic": "Critical-Path Delivery",
-        "description": "Fast-tracked critical-path tasks through component reuse and targeted code reviews, helping the team deliver under tight sprint deadlines."
+        "topic": "Delivery & Code Quality",
+        "description": "Helped unblock critical development work through component reuse, targeted refactoring, and code reviews during a high-pressure delivery period."
       }
     ],
     skills: [
@@ -70,7 +70,7 @@ export const experiences: Experience[] = [
       "CSS-in-JS",
       "React Query",
       "GraphQL",
-      "Typescript",
+      "TypeScript",
       "Monorepo",
     ],
     startDate: "2021 Jul",
@@ -80,23 +80,23 @@ export const experiences: Experience[] = [
     id: 6,
     position: "Full-stack Engineer",
     company: "Avenue Code",
-    description: "Officially a Full-stack Engineer at Avenue Code; assigned to client work as a Senior Frontend Engineer. The work was primarily frontend, focused on web applications and frontend architecture.",
+    description: "As an outsourced developer, worked with two major clients, developing web applications and APIs in fast-paced environments. Worked across frontend and backend technologies, contributing to architecture, authentication, content management, and application performance.",
     accomplishments: [
       {
-        "topic": "Design System Implementation",
-        "description": "Created a design system for a Fortune 500 client, adopted by product teams to support consistent UX across web, mobile, and tablet platforms."
+        "topic": "Design System Architecture",
+        "description": "Designed and helped establish a scalable design system for a Fortune 500 client, working closely with designers and development teams to build reusable components and maintain consistency across applications."
       },
       {
-        "topic": "Authentication Integration",
-        "description": "Integrated Okta authentication into Next.js applications."
+        "topic": "Authentication & Authorization",
+        "description": "Collaborated with Azure DevOps and backend teams to integrate Okta authentication and define authentication and authorization flows for Next.js applications and future projects."
       },
       {
-        "topic": "Content Management Solution",
-        "description": "Proposed and delivered a CMS solution that enabled marketing teams to manage content without developer support."
+        "topic": "CMS Development",
+        "description": "Proposed and developed an optimized CMS solution using Django, Graphene, and Apollo Client, enabling content management for the company's main web application."
       },
       {
-        "topic": "Frontend Performance",
-        "description": "Reworked Apollo Client caching strategies and Next.js server-side rendering to address load time across key user flows."
+        "topic": "Application Performance",
+        "description": "Explored Apollo Client caching strategies and Next.js server-side rendering to improve application performance through more efficient data fetching and cache management."
       }
     ],
     skills: [
@@ -104,14 +104,13 @@ export const experiences: Experience[] = [
       "CSS-in-JS",
       "Sass",
       "Next.js",
-      "Typescript",
-      "Isomorphic applications",
+      "TypeScript",
       "Apollo Client",
       "GraphQL",
       "Python",
       "Django",
       "Microservices",
-      "RESTful Web services",
+      "RESTful Web Services",
     ],
     startDate: "2019 Oct",
     endDate: "2021 Jul",
@@ -120,31 +119,30 @@ export const experiences: Experience[] = [
     id: 5,
     position: "Team Lead",
     company: "Banrisul",
-    description: "Team Lead at one of Brazil's largest state banks, where C# was the primary language. Guided cross-functional agile teams, contributed to engineering standards, and worked on digital transformation initiatives.",
+    description: "Team Lead at one of Brazil’s largest state banks, guiding cross-functional agile teams while contributing to digital transformation and establishing engineering practices across the organization.",
     accomplishments: [
       {
-        "topic": "Spearheaded Development Best Practices",
-        "description": "Initiated and promoted standardized development practices and support tools as part of a core team, enabling consistent software delivery across internal engineering groups."
+        "topic": "Engineering Standards & Best Practices",
+        "description": "Initiated and promoted standardized development practices and supporting tools as part of a core engineering team, helping establish more consistent software delivery practices across internal groups."
       },
       {
-        "topic": "Championed Digital Transformation Initiatives",
-        "description": "Selected to collaborate with a top-tier consultancy on establishing a new digital transformation division, driving modernization efforts for enterprise clients."
+        "topic": "Digital Transformation",
+        "description": "Collaborated with a top-tier consultancy to establish a new digital transformation division, contributing to modernization initiatives for enterprise clients."
       },
       {
-        "topic": "Technical Leadership and Delivery Practices",
-        "description": "Guided multiple cross-functional agile teams as technical lead and implemented CI/CD pipelines and test automation strategies to accelerate release cycles."
+        "topic": "Technical Leadership",
+        "description": "Guided multiple cross-functional agile teams as technical lead, contributing to software architecture, CI/CD pipelines, and test automation."
       },
       {
-        "topic": "Pioneered Internal Process Improvements",
-        "description": "Developed side initiatives to optimize software development workflows and developer tooling, reducing friction in daily operations and enhancing team productivity."
+        "topic": "Engineering Process Improvements",
+        "description": "Developed initiatives to improve software development workflows and developer tooling, addressing recurring friction in day-to-day engineering work."
       }
     ],
     skills: [
-      "C#",
-      "Node.js",
-      "Software architecture",
-      "React",
       "Webpack",
+      "Software Architecture",
+      "C#",
+      "RESTful Web Services",
       "Hybrid Applications",
     ],
     startDate: "2015 Sep",
@@ -154,37 +152,43 @@ export const experiences: Experience[] = [
     id: 4,
     position: "Full-stack Developer",
     company: "Hexagon Agriculture",
+    description:
+      "Full-stack developer working across Java, JavaScript, geospatial systems, and backend services. Transitioned from PHP to Java and quickly became productive across the existing application stack.",
     accomplishments: [
       {
-        "topic": "Testing Foundations",
-        "description": "Introduced JUnit and Mockito testing frameworks and JaCoCo coverage tracking for core modules."
+        "topic": "Automated Testing & Code Quality",
+        "description": "Introduced and promoted JUnit and Mockito testing practices, alongside JaCoCo coverage tracking, to strengthen automated testing and code quality."
       },
       {
-        "topic": "CI Pipeline Infrastructure",
-        "description": "Designed and deployed a Jenkins CI server with Docker containerization for automated build verification and test execution."
+        "topic": "CI/CD Infrastructure",
+        "description": "Built CI/CD infrastructure using Jenkins and Docker, improving the consistency and automation of application builds and deployments."
       },
       {
-        "topic": "Geospatial Queries and Map Layers",
-        "description": "Wrote and optimized queries to fetch database datapoints for OpenLayers layers, including map shapes and detailed driver-route traces."
+        "topic": "Geospatial Application Modernization",
+        "description": "Refactored a legacy map-rendering library and modernized its integration with PostGIS, improving the application's geospatial capabilities."
       },
       {
-        "topic": "Developer Onboarding",
-        "description": "Established an onboarding program covering test-driven development and spatial database patterns."
+        "topic": "Spatial Data Systems",
+        "description": "Re-engineered PostgreSQL/PostGIS data structures and queries using spatial indexing and query caching to improve geospatial data access."
       },
       {
-        "topic": "Farm and Plot Data Ingestion",
-        "description": "Improved farm and plot data ingestion from minutes to seconds."
+        "topic": "Engineering Mentorship",
+        "description": "Supported onboarding and mentored engineers on TDD practices and spatial database development patterns."
       },
     ],
-    description:
-      "Full-stack developer delivering Java application features across server-side services, REST APIs, and geospatial data systems.",
     skills: [
-      "Java/JSF/EJB/JPA",
-      "RESTful Web services",
-      "Postgres / PostGIS",
-      "Spatial data manipulation",
-      "Jboss management",
-      "Shell script",
+      "Java",
+      "JavaScript",
+      "JSF",
+      "EJB",
+      "JPA",
+      "RESTful Web Services",
+      "PostgreSQL",
+      "PostGIS",
+      "JBoss",
+      "Docker",
+      "Jenkins",
+      "Shell Scripting",
     ],
     startDate: "2013 Jul",
     endDate: "2015 Aug",
@@ -193,24 +197,37 @@ export const experiences: Experience[] = [
     id: 3,
     position: "Tech Lead",
     company: "Webcrew",
-    description: "Founder and Tech Lead, responsible for strategic planning, technical development, and team management.",
-    skills: [
-      "Leadership",
-      "Project management",
-      "Remote team management",
-      "MySQL",
-      "JQuery",
-      "UI/UX concepts",
-    ],
+    description: "Founded and led a small software business, combining technical development with strategic planning and team management. Worked across application development, legacy system integration, databases, and frontend development.",
     accomplishments: [
       {
-        "topic": "PHP Development with CodeIgniter",
-        "description": "Designed and developed web applications with CodeIgniter and its MVC architecture."
+        "topic": "Full-stack Application Development",
+        "description": "Developed and maintained PHP applications using CodeIgniter and MVC patterns, while also delivering frontend functionality with JavaScript, HTML, and CSS."
       },
       {
         "topic": "Legacy System Integration",
-        "description": "Integrated legacy systems and applied database normalization to support data integrity and system integration."
+        "description": "Integrated legacy systems and supported incremental modernization, maintaining compatibility while improving application structure and normalizing existing data."
+      },
+      {
+        "topic": "Database Development",
+        "description": "Designed and normalized MySQL database structures to support application functionality and ongoing system improvements."
+      },
+      {
+        "topic": "Technical & Team Leadership",
+        "description": "Coordinated development tasks, managed a remote team, and mentored team members while remaining hands-on with technical delivery."
       }
+    ],
+    skills: [
+      "PHP",
+      "CodeIgniter",
+      "MySQL",
+      "JavaScript",
+      "jQuery",
+      "HTML",
+      "CSS",
+      "MVC",
+      "UI/UX",
+      "Remote Team Management",
+      "Project Management",
     ],
     startDate: "2011 Jul",
     endDate: "2013 Jun",
@@ -220,19 +237,28 @@ export const experiences: Experience[] = [
     position: "Web Developer",
     company: "Opportunity Web Software",
     description:
-      "Early software role applying professional coding practices and design patterns; contributed to the creation of an internal MVC framework for web development.",
+      "Early professional software development role, contributing to web applications while building a strong foundation in software engineering practices and design patterns.",
     accomplishments: [
       {
-        "topic": "Internal MVC Framework",
-        "description": "Contributed to an internal PHP MVC framework intended to accelerate web application development."
+        "topic": "Software Engineering Practices",
+        "description": "Applied coding best practices and design patterns while contributing to the development of web applications."
+      },
+      {
+        "topic": "Internal Framework Development",
+        "description": "Contributed to the development of the company's internal MVC framework, working on reusable foundations for application development."
+      },
+      {
+        "topic": "Full-stack Web Development",
+        "description": "Developed web functionality across PHP, JavaScript, HTML, and CSS, adapting quickly to the team's technology stack."
       }
     ],
     skills: [
-      "Web development",
-      "Design patterns",
       "PHP",
-      "HTML/CSS",
-      "Javascript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MVC",
+      "Design Patterns",
     ],
     startDate: "2008 Aug",
     endDate: "2009 Oct",
