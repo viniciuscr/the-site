@@ -5,27 +5,27 @@ export const experiences: Experience[] = [
     id: 9,
     position: "AI Engineer",
     company: "Nationale Nederlanden",
-    description: "Senior engineer who informally leads engineering work within one of two teams in the squad. Contributes to the document-analysis system's overall architecture alongside the Tech Lead and Staff/Principal Engineer, and participates in almost all technical decisions across the system.",
+    description: "Informal engineering lead for one of two groups, contributing to technical decisions across both groups, conducting technical interviews, evaluating candidates, and formally mentoring engineers and data scientists. Work across AI/LLM engineering, system architecture, data analysis, experimentation, and production software engineering.",
     accomplishments: [
       {
-        "topic": "Agentic Workflow Engineering",
-        "description": "Designs and implements agentic workflows in Python and LangGraph, defining states, nodes, dependencies, and transitions. Main engineer responsible for designing and implementing the workflow for a new feature."
+        "topic": "AI-Powered Mortgage Document Analysis",
+        "description": "Contribute to the overall architecture of a production mortgage document-analysis system alongside the Tech Lead and Staff/Principal Engineer, participating in technical decisions across the system. Design and implement agentic workflows with LangGraph and Python for new features, defining states, nodes, dependencies, and transitions."
       },
       {
-        "topic": "LLM Integration and Evaluation",
-        "description": "Integrates LLMs and contributes to prompt design and model and tool selection and configuration with data scientists. Uses evaluation results to inform technical decisions."
+        "topic": "LLM Engineering & Evaluation",
+        "description": "Work hands-on across LLM integration, prompt design, model and tool selection, and configuration in collaboration with data scientists. Participate in defining evaluation methodologies, conducting experiments, and analyzing LLM outputs, document-analysis data, and telemetry to inform technical decisions."
       },
       {
-        "topic": "Telemetry, Observability, and Analysis",
-        "description": "Designs and implements telemetry and observability architecture for AI and document-analysis workflows using AWS Powertools, X-Ray tracing, and automated alerts. Analyzes telemetry alongside LLM outputs and document-analysis data."
+        "topic": "Telemetry & Observability Architecture",
+        "description": "Designed and implemented the overall telemetry and observability architecture across the monorepo using AWS Powertools, X-Ray tracing, and automated alerts, supporting AI and document-analysis workflows."
       },
       {
-        "topic": "AI Evaluation and Data Analysis",
-        "description": "Conducts hands-on data analysis and experiments, evaluates AI/LLM behavior, and participates in defining evaluation methods that inform engineering decisions."
+        "topic": "In-House OCR Solution",
+        "description": "Led development of an in-house OCR solution using Python and AWS Lambda to extract structured JSON from mortgage documents, integrating LLMs, ground-truth processes, and production-grade observability."
       },
       {
-        "topic": "Technical Leadership and Mentoring",
-        "description": "Conducts technical interviews, evaluates candidates, and makes hiring recommendations with teammates. Formally mentors engineers and data scientists, helping develop software engineering skills and bridge gaps between disciplines."
+        "topic": "AI-Assisted Development & LLM Tooling",
+        "description": "Established team-wide practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling, defining agent context, custom instructions, and guardrails to support consistent development practices."
       },
     ],
     skills: [
