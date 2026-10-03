@@ -5,19 +5,19 @@ export const features: Feature[] = [
     icon: "users",
     title: "Technical Leadership",
     description:
-      "Leads technical decisions across engineering and data science, with experience in architecture, technical reviews, mentoring, hiring, and engineering standards.",
+      "Senior engineer and engineering lead for one team within a two-team squad. Contributes to technical and architecture decisions across both teams, and works with engineering and data science colleagues.",
   },
   {
     icon: "braces",
     title: "Backend, Cloud & Architecture",
     description:
-      "Full-stack experience across Python, Node.js, TypeScript, Java, C#, APIs, microservices, and databases, with AWS serverless systems, CI/CD, and distributed application architecture.",
+      "Experience across Python, Node.js, TypeScript, Java, C#, APIs, microservices, databases, AWS serverless systems, and CI/CD, alongside software architecture and backend engineering.",
   },
   {
     icon: "brainCircuit",
     title: "AI & LLM Engineering",
     description:
-      "Hands-on experience designing agentic workflows with LangGraph, building LLM-assisted document-analysis features, and establishing AI agent development practices (agents.md, GitHub Copilot). Bridging data science and engineering in production.",
+      "Contributes to Python and LangGraph document-analysis workflows involving LLMs and OCR, and works across engineering and data science. Experience also includes AI-assisted development tooling.",
   },
   {
     icon: "layout",
@@ -27,8 +27,8 @@ export const features: Feature[] = [
   },
   {
     icon: "server",
-    title: "Scalable Systems & Operations",
+    title: "Cloud & Operations",
     description:
-      "Experience with microservices, serverless functions, AWS Lambda and Step Functions, production observability, distributed tracing, CI/CD, Docker, and database optimization.",
+      "Experience with serverless functions, AWS Lambda and Step Functions, telemetry with AWS Powertools and X-Ray, CI/CD, Docker, and database query optimization.",
   },
 ];

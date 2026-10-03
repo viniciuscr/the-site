@@ -57,14 +57,14 @@ export async function FeaturesTitle() {
             📍 Rotterdam, Netherlands · Open to Relocation to Japan
           </Text>
           <Text ta="justify">
-            Staff-level software engineer and technical leader with 18+ years
-            building software across frontend, backend, and cloud systems.
-            Experienced in architecture and full-stack delivery with Python,
-            TypeScript, JavaScript, Node.js, AWS, APIs, and databases. Recent
-            work focuses on production AI and LLM systems, including Python
-            workflows, document analysis, OCR, and observability. Leads technical
-            decisions and collaborates with engineering and data science teams
-            to take complex systems into production.
+            Staff-level full-stack software engineer and technical leader with
+            18+ years across frontend, backend, and cloud engineering. Recent
+            work focuses on Python, AI and LLM workflows, document analysis,
+            OCR, and AWS telemetry. At Nationale Nederlanden, I lead engineering
+            work in one of two teams, contribute to the document-analysis
+            workflow, implement telemetry, and participate in architecture
+            decisions across both teams. My experience also includes
+            TypeScript, JavaScript, Node.js, Java, C#, APIs, and databases.
           </Text>
 
           <PrintPDFButton />

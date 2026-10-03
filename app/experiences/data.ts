@@ -5,34 +5,30 @@ export const experiences: Experience[] = [
     id: 9,
     position: "AI Engineer",
     company: "Nationale Nederlanden",
-    description: "Engineering lead for one group within a larger two-group team, contributing to technical decisions across both groups. Builds production AI systems and shapes architecture through technical reviews, hiring interviews, mentoring, and translating data science requirements into scalable, observable software.",
+    description: "Senior engineer and engineering lead for one of two teams in the squad; a separate Tech Lead serves the squad. Contributes to technical decisions across both teams and often participates in architecture decisions for both. Works with data science and engineering colleagues on AI systems.",
     accomplishments: [
       {
-        "topic": "Production Mortgage Document Analysis",
-        "description": "Helped deliver a production system that checks mortgage application documents for completeness. Designed a multi-step Python and LangGraph workflow, defining state transitions and node dependencies and adding observability across the pipeline."
+        "topic": "Mortgage Document Analysis Workflow",
+        "description": "Works as engineering lead within one of the two teams contributing to a multi-step Python and LangGraph workflow that checks mortgage application documents for completeness."
       },
       {
-        "topic": "Production Telemetry",
-        "description": "Standardized telemetry across the monorepo with AWS Powertools logging, X-Ray tracing, and automated alerts, supporting integration with new application features."
+        "topic": "Monorepo Telemetry",
+        "description": "Personally implemented telemetry across the monorepo using AWS Powertools for logging, X-Ray tracing, and automated alerts."
       },
       {
         "topic": "In-House OCR Solution",
-        "description": "Led development of an OCR solution using Python Lambda functions to extract structured JSON from mortgage documents, integrating LLMs, ground-truth processes, and production observability."
-      },
-      {
-        "topic": "AI-Assisted Engineering Practices",
-        "description": "Established team practices for AI-assisted development using agents.md specifications, GitHub Copilot Coding Agent, and LLM tooling. Defined agent context, custom instructions, and guardrails for consistent use."
+        "description": "Contributed to an in-house OCR solution using Python Lambda functions to extract structured JSON from mortgage documents, integrating LLMs and ground-truth processes."
       },
     ],
     skills: [
       "Python",
       "LangGraph",
       "AI Agents",
-      "GitHub Copilot",
       "AWS Lambda",
       "Step Functions",
       "Middy",
-      "Typescript",
+      "TypeScript",
+      "GitHub Copilot",
       "React",
       "Next.js",
       "Technical Leadership",
@@ -45,7 +41,7 @@ export const experiences: Experience[] = [
     position: "Front-end Engineer",
     company: "Clevertech",
     description:
-      "Joined on a three-month contract to help recover a delayed initiative. Worked with the team to rethink and refactor critical application components and improve delivery speed.",
+      "Joined on a short-term contract to help recover a delayed initiative. Worked with the team to rethink and refactor critical frontend application components.",
 
     accomplishments: [
       {
@@ -53,12 +49,12 @@ export const experiences: Experience[] = [
         "description": "Helped to stabilize development velocity by designing reusable UI components adopted by the entire team."
       },
       {
-        "topic": "Shared Frontend Architecture",
-        "description": "Designed shared frontend libraries to replace inconsistent implementations, reducing average task completion time from three days to as little as one day."
+        "topic": "Shared Frontend Libraries",
+        "description": "Designed shared frontend libraries to replace inconsistent implementations and support more consistent development across the team."
       },
       {
         "topic": "Critical-Path Delivery",
-        "description": "Fast-tracked 10+ critical-path tasks through component reuse and targeted code reviews, helping the team complete a high-pressure sprint on time."
+        "description": "Fast-tracked critical-path tasks through component reuse and targeted code reviews, helping the team deliver under tight sprint deadlines."
       }
     ],
     skills: [
@@ -76,23 +72,23 @@ export const experiences: Experience[] = [
     id: 6,
     position: "Full-stack Engineer",
     company: "Avenue Code",
-    description: "Full-stack engineer for two major clients, developing web applications and APIs in fast-paced environments. Work spanned frontend applications and backend services, including Python/Django and microservices, alongside architecture and integration concerns.",
+    description: "Officially a Full-stack Engineer at Avenue Code; assigned to client work as a Senior Frontend Engineer. The work was primarily frontend, focused on web applications and frontend architecture.",
     accomplishments: [
       {
-        "topic": "Led Design System Implementation",
-        "description": "Created and evangelized a scalable design system for a Fortune 500 client, adopted by 25+ product teams to maintain consistent UX across web, mobile, and tablet platforms."
+        "topic": "Design System Implementation",
+        "description": "Created a design system for a Fortune 500 client, adopted by product teams to support consistent UX across web, mobile, and tablet platforms."
       },
       {
-        "topic": "Reusable Authentication Integration",
-        "description": "Integrated Okta authentication into Next.js applications with Azure DevOps, reducing implementation time for new projects by two weeks on average."
+        "topic": "Authentication Integration",
+        "description": "Integrated Okta authentication into Next.js applications."
       },
       {
-        "topic": "Proactive Problem Solving",
-        "description": "Proposed and delivered a CMS solution to the current project that empowered marketing teams to manage content without developer support, eliminating 12+ weekly update requests."
+        "topic": "Content Management Solution",
+        "description": "Proposed and delivered a CMS solution that enabled marketing teams to manage content without developer support."
       },
       {
-        "topic": "Performance Optimization",
-        "description": "Overhauled Apollo Client caching strategies and Next.js server-side rendering implementation, achieving measurable load-time improvements across 69% of key user flows."
+        "topic": "Frontend Performance",
+        "description": "Reworked Apollo Client caching strategies and Next.js server-side rendering to address load time across key user flows."
       }
     ],
     skills: [
@@ -116,7 +112,7 @@ export const experiences: Experience[] = [
     id: 5,
     position: "Team Lead",
     company: "Banrisul",
-    description: "Team Lead at one of Brazil's largest state banks, guiding cross-functional agile teams, establishing engineering standards, and contributing to digital transformation and modernization initiatives.",
+    description: "Team Lead at one of Brazil's largest state banks, where C# was the primary language. Guided cross-functional agile teams, contributed to engineering standards, and worked on digital transformation initiatives.",
     accomplishments: [
       {
         "topic": "Spearheaded Development Best Practices",
@@ -136,12 +132,9 @@ export const experiences: Experience[] = [
       }
     ],
     skills: [
-      "Software architecture",
-      "Microservices",
-      "RESTful Web services",
       "C#",
       "Node.js",
-      "MongoDB",
+      "Software architecture",
       "React",
       "Webpack",
       "Hybrid Applications",
@@ -155,24 +148,24 @@ export const experiences: Experience[] = [
     company: "Hexagon Agriculture",
     accomplishments: [
       {
-        "topic": "Championed Quality Foundations",
-        "description": "Pioneered adoption of JUnit/Mockito testing frameworks and Jacoco coverage tracking, achieving 85%+ code coverage compliance across core modules within 5 months."
+        "topic": "Testing Foundations",
+        "description": "Introduced JUnit and Mockito testing frameworks and JaCoCo coverage tracking for core modules."
       },
       {
-        "topic": "Built CI/CD Pipeline Infrastructure",
-        "description": "Designed and deployed Jenkins CI server with Docker containerization, reducing integration issues by 30% through automated build verification and test execution."
+        "topic": "CI Pipeline Infrastructure",
+        "description": "Designed and deployed a Jenkins CI server with Docker containerization for automated build verification and test execution."
       },
       {
-        "topic": "Geospatial Application and Query Optimization",
-        "description": "Refactored a legacy map-rendering library and optimized PostGIS queries, improving rendering performance by 42%."
+        "topic": "Geospatial Queries and Map Layers",
+        "description": "Wrote and optimized queries to fetch database datapoints for OpenLayers layers, including map shapes and detailed driver-route traces."
       },
       {
-        "topic": "Mentored Engineering Teams",
-        "description": "Established onboarding program for new developers covering test-driven development and spatial database patterns, reducing ramp-up time from 4 weeks to 1 week."
+        "topic": "Developer Onboarding",
+        "description": "Established an onboarding program covering test-driven development and spatial database patterns."
       },
       {
-        "topic": "Optimized Spatial Data Systems",
-        "description": "Re-engineered PostgreSQL geospatial databases with spatial indexing and query caching strategies, achieving 25% faster complex geoqueries through execution plan analysis."
+        "topic": "Farm and Plot Data Ingestion",
+        "description": "Improved farm and plot data ingestion from minutes to seconds."
       },
     ],
     description:
@@ -192,7 +185,7 @@ export const experiences: Experience[] = [
     id: 3,
     position: "Tech Lead",
     company: "Webcrew",
-    description: "As the founder of my own small business, I led strategic planning, technical development, and team management. I developed key features, mentored a dynamic team and fostered a collaborative environment.",
+    description: "Founder and Tech Lead, responsible for strategic planning, technical development, and team management.",
     skills: [
       "Leadership",
       "Project management",
@@ -204,23 +197,11 @@ export const experiences: Experience[] = [
     accomplishments: [
       {
         "topic": "PHP Development with CodeIgniter",
-        "description": "Designed and developed scalable web applications using the CodeIgniter framework, leveraging its MVC architecture to streamline development processes and enhance maintainability."
-      },
-      {
-        "topic": "Front-End Enhancements",
-        "description": "Improved user interfaces by integrating CSS for responsive layouts, JavaScript for dynamic interactions, and HTML for semantic structure, ensuring cross-browser compatibility and accessibility."
+        "description": "Designed and developed web applications with CodeIgniter and its MVC architecture."
       },
       {
         "topic": "Legacy System Integration",
-        "description": "Successfully integrated legacy systems by assessing compatibility, implementing incremental upgrades, and ensuring data normalization to enhance performance and scalability."
-      },
-      {
-        "topic": "Database Normalization",
-        "description": "Applied data normalization techniques to eliminate redundancy and ensure data integrity, optimizing database performance and facilitating smoother system integrations."
-      },
-      {
-        "topic": "Task Coordination and Team Management",
-        "description": "Coordinated task distribution within development teams, ensuring efficient workflow through clear role definitions, regular progress updates, and effective communication channels."
+        "description": "Integrated legacy systems and applied database normalization to support data integrity and system integration."
       }
     ],
     startDate: "2011 Jul",
@@ -231,19 +212,11 @@ export const experiences: Experience[] = [
     position: "Web Developer",
     company: "Opportunity Web Software",
     description:
-      "First professional contact with development, introduced to best coding practices and design patterns. After a short adaptation period, helped to create an internal framework to burst development using MVC pattern.",
+      "Early software role applying professional coding practices and design patterns; contributed to the creation of an internal MVC framework for web development.",
     accomplishments: [
       {
-        "topic": "Introduction to Professional Development",
-        "description": "Gained first-hand experience in software development, learning best coding practices and design patterns that laid the foundation for future growth."
-      },
-      {
-        "topic": "Framework Development with MVC",
-        "description": "Contributed to the creation of an internal framework utilizing the MVC pattern, which significantly accelerated development processes and improved code maintainability."
-      },
-      {
-        "topic": "Rapid Adaptation and Contribution",
-        "description": "Quickly adapted to new technologies and methodologies, becoming an integral part of the team by providing valuable insights and support in framework development."
+        "topic": "Internal MVC Framework",
+        "description": "Contributed to an internal PHP MVC framework intended to accelerate web application development."
       }
     ],
     skills: [
